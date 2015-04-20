@@ -1,0 +1,126 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _W-ObEMTnEeSpxbwabAnitw
+Element-Name: IncQuery Create Pattern Test
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _mwklkMT_EeSpxbwabAnitw
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/1/15 11:02 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//Create .eiqgen
+get-menu "File/New/Other..." | click
+with [get-window New] {
+    get-tree | select "EMF-IncQuery/EMF-IncQuery Project"
+    get-button "Next >" | click
+}
+with [get-window -class WizardDialog] {
+    get-editbox -after [get-label "Project name:"] | set-text "school.myincquery"
+    get-button Finish | click
+}
+get-view "Project Explorer" | get-tree | select "school.myincquery" | get-menu "New/Other..." | click
+with [get-window New] {
+    get-tree | select "EMF-IncQuery/EMF-IncQuery Generator Model"
+    get-button "Next >" | click
+}
+with [get-window -class WizardDialog] {
+    get-table | select "school.myincquery"
+    get-button "Next >" | click
+    get-section "Referenced EMF Generator models" | get-button Add | click
+    with [get-window "Select EMF Generator model"] {
+        get-tree | select "school/model/school.genmodel"
+        get-button OK | click
+    }
+    get-button Finish | click
+}
+
+//Create project and pattern
+get-view "Project Explorer" | get-tree | select "school.myincquery" | get-menu "New/Other..." | click
+with [get-window New] {
+    get-tree | select "EMF-IncQuery/EMF-IncQuery Query Definition"
+    get-button "Next >" | click
+}
+with [get-window -class WizardDialog] {
+    with [get-editbox -after [get-label "Package:"]] {
+        set-text school
+        key-type "TRAVERSE_TAB_NEXT"
+    }
+    get-button "Browse..." -after [get-label "Package:"] | key-type "TRAVERSE_TAB_NEXT"
+    get-editbox -after [get-label "File name:"] | set-text "simplequery.eiq"
+    get-button "Next >" | click
+    with [get-editbox -after [get-label "Pattern name:"]] {
+        set-text coursesOfTeacherNames
+    }
+    get-button Add | click
+}
+with [get-window "Select packages to import"] {
+    get-editbox -after [get-label "Select one or more package(s) (* = any string, ? = any char):"] | set-text school
+    with [get-table] {
+        get-cell 0 0 | click
+        get-cell 0 0 | click
+        get-cell 0 0 | mouse down -count 2
+        double-click
+    }
+}
+get-window -class WizardDialog | get-button Finish | click
+with [get-editor "simplequery.eiq" | get-text-viewer] {
+    set-caret-pos 3 19
+    hover-text 3 19
+}
+with [get-editor "simplequery.eiq" | get-text-viewer] {
+    set-caret-pos 5 31
+    type-text T
+    type-text "Name, Cname"
+    key-type BackSpace -times 4
+    type-text Name
+    key-type Right -times 3
+    key-type Enter
+    type-text "Teacher."
+    show-content-assist
+    type-text "courses(T, C)"
+    key-type "M1+M3+," ";"
+    key-type Enter
+    type-text "Teacher."
+    show-content-assist
+    type-text n
+    key-type Down -times 2
+    key-type Up
+}
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select name | click -default
+with [get-editor "simplequery.eiq" | get-text-viewer] {
+    type-text "(T, TName"
+    key-type Right
+    key-type "M1+M3+," ";"
+    key-type Enter
+    type-text "Course."
+    show-content-assist
+    type-text subje
+}
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select subject | click -default
+with [get-editor "simplequery.eiq" | get-text-viewer] {
+    type-text "(C, CNA"
+    key-type BackSpace
+    type-text "ame)"
+    key-type "M1+M3+," ";"
+    hover-text 3 19
+}
+get-button "Save (M1+S)" | click
+with [get-view "Project Explorer" | get-tree] {
+    get-item "school.myincquery/src/school/simplequery.eiq" | get-property caption | equals "simplequery.eiq" 
+        | verify-true
+    get-item "school.myincquery/src/school" | get-property caption | equals school | verify-true
+}
+get-editor "simplequery.eiq" | get-text-viewer | get-property text | equals "package school\n\n"
+    + "import \"http://school.ecore\"\n\n"
+    + "pattern coursesOfTeacherNames(TName, CName) {\n"
+    + "\tTeacher.courses(T, C);\n"
+    + "\tTeacher.name(T, TName);\n"
+    + "\tCourse.subject(C, CName);\n"
+    + "}" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

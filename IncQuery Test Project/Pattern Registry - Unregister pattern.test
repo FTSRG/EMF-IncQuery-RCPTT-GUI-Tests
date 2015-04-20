@@ -1,0 +1,22 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _zHT_IMUHEeSpxbwabAnitw,_7VaK8N0OEeSqCbiyW6IFWQ
+Element-Name: Pattern Registry - Unregister pattern
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _Gldi4N0PEeSqCbiyW6IFWQ
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/7/15 12:18 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "Query Explorer" | get-tree] {
+    select "Runtime/school" | get-menu "Unregister pattern" | click
+    select Runtime
+}
+get-view "Query Explorer" | get-tree | get-item Runtime | get-property childCount | equals 0 | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

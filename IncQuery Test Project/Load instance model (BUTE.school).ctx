@@ -1,0 +1,23 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: Load instance model (BUTE.school)
+Element-Type: context
+Element-Version: 2.0
+Id: _w0lG0N6KEeSH_c6z_E9ixw
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/9/15 9:36 AM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+get-view "Project Explorer" | get-tree | select "school.instancemodel/BUTE.school" | get-menu "Open With/Other..." 
+    | click
+with [get-window "Editor Selection"] {
+    get-table | select "Sample Reflective Ecore Model Editor"
+    get-button OK | click
+}
+get-view "Query Explorer" | get-button "Load model" | click -arrow
+get-menu "Load ResourceSet" | click
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--
