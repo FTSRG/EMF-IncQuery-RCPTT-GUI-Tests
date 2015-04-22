@@ -9,18 +9,19 @@
     
 1. Create new Jenkins Job. 
 
-Make these steps, use this GitHub repository:  
-http://support.xored.com/support/solutions/articles/3000028645-use-jenkins-to-run-rcptt-tests-in-continuos-integration-environment-
+  Make these steps, use this GitHub repository:  
+   http://support.xored.com/support/solutions/articles/3000028645-use-jenkins-to-run-rcptt-tests-in-continuos-integration-environment-
 
-To remove .git folder form workspace, use this shell command:
+  To remove .git folder form workspace, use this shell command:
 
-<code>rm -rf $WORKSPACE/.git/</code>
+  <code>rm -rf $WORKSPACE/.git/</code>
 
-More commands:
+  More commands:
 
-<code>/usr/bin/metacity --display=$DISPLAY --replace --sm-disable & sleep 1</code>
-<code>/usr/bin/metacity-message disable-keybindings</code>
+  <code>/usr/bin/metacity --display=$DISPLAY --replace --sm-disable & sleep 1</code>
+  <code>/usr/bin/metacity-message disable-keybindings</code>
 
-To configure Xvnc:
-<code>Xvnc :$DISPLAY_NUMBER -geometry 800x600</code>
+  To configure (in Jenkins configuration):
+  
+  <code>Xvnc :$DISPLAY_NUMBER -geometry 800x600</code>
 
