@@ -21,7 +21,7 @@
   <code>/usr/bin/metacity --display=$DISPLAY --replace --sm-disable & sleep 1</code>
   <code>/usr/bin/metacity-message disable-keybindings</code>
 
-  To configure (in Jenkins configuration):
+  To configure Xvnc (in Jenkins configuration):
   
   <code>Xvnc :$DISPLAY_NUMBER -geometry 800x600</code>
 
