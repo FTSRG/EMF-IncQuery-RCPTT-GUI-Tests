@@ -9,7 +9,7 @@
     
 1. Create new Jenkins Job. 
 
-  Make these steps, use this GitHub repository:  
+  Make these steps from step 3, you can use this GitHub repository:  
    http://support.xored.com/support/solutions/articles/3000028645-use-jenkins-to-run-rcptt-tests-in-continuos-integration-environment-
 
   To remove .git folder form workspace, use this shell command:
