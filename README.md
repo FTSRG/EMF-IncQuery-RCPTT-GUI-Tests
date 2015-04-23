@@ -28,3 +28,4 @@
   
   <code>Xvnc :$DISPLAY_NUMBER -geometry 800x600</code>
 
+3. Current state: 5 tests fail
