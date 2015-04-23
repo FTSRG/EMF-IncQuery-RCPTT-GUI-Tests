@@ -33,6 +33,13 @@
     </plugins>
   </build>
 
+  <injections>
+    <injection>
+       <site>https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/</site>
+            <!-- features are optional - when omitted, all features from given site will be installed -->  
+    </injection>
+  </injections>
+  
   <pluginRepositories>
     <pluginRepository>
       <id>xored-releases</id>
