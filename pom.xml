@@ -24,6 +24,12 @@
         <configuration>
           <aut>
             <explicit>${autPath}</explicit>
+			<injections>
+				<injection>
+					<site>https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/</site>
+					<!-- features are optional - when omitted, all features from given site will be installed -->  
+				</injection>
+			</injections>
           </aut>
           <runner>
             <explicit>${runnerPath}</explicit>
@@ -33,12 +39,7 @@
     </plugins>
   </build>
 
-  <injections>
-    <injection>
-       <site>https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/</site>
-            <!-- features are optional - when omitted, all features from given site will be installed -->  
-    </injection>
-  </injections>
+
   
   <pluginRepositories>
     <pluginRepository>
