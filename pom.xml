@@ -25,7 +25,7 @@
           <aut>
             <explicit>${autPath}</explicit>
 			<vmArgs> 
-				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=${target_home}/test.exec</vmArg>  
+				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/usr/test/test.exec</vmArg>  
 			</vmArgs> 
           </aut>
           <runner>
