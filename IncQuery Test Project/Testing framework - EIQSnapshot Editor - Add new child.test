@@ -1,0 +1,40 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _SS4ocO0XEeS2zK4PLaWtaA
+Element-Name: Testing framework - EIQSnapshot Editor - Add new child
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _wp9TkO0iEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/27/15 11:21 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "school.tests/model/demo/correct.eiqsnapshot" | double-click
+
+with [get-editor "correct.eiqsnapshot" | get-tree] {
+    get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool/Match Record Match" 
+        | click
+    get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool/Match Record Match" 
+        | click
+    get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+        | click
+    get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+        | click
+    select "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+        | get-menu "New Child/Matches Match Record" | click
+    get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+        | get-item "Match Record Match" -index 5 | click
+    select [get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+        | get-item "Match Record Match" -index 5] | get-menu "New Child/EMF Substitution" | click
+}
+get-button "Save (M1+S)" | click
+get-editor "correct.eiqsnapshot" | get-tree 
+    | get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/correct.eiqsnapshot/Inc Query Snapshot ResourceSet/Match Set Record school.studentOfSchool" 
+    | get-item "Match Record Match" -index 5 | get-item "EMF Substitution" | get-property caption 
+    | equals "EMF Substitution" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
