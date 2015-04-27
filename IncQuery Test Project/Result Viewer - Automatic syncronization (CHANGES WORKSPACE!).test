@@ -7,7 +7,7 @@ Element-Version: 3.0
 External-Reference: 
 Id: _N2_QoN6MEeSH_c6z_E9ixw
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 4/27/15 12:33 PM
+Save-Time: 4/27/15 2:36 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
@@ -42,8 +42,10 @@ with [get-view Properties | get-tree] {
     }
     apply-cell-edit
 }
+
 get-view "Query Explorer" | get-tree -index 1 
-    | get-item "\\[platform:\\/resource\\/school.instancemodel\\/BUTE.school\\]\\[org.eclipse.emf.ecore.presentation.ReflectiveEditorID\\]/school.CourseWithoutTeacher - 1 match   \\(Runtime\\)/C=school.impl.CourseImpl@399387e2 \\(subject: Computer Graphics, weight: 0\\)" 
-    | get-property caption | equals "C=school.impl.CourseImpl@399387e2 (subject: Computer Graphics, weight: 0)" 
-    | verify-true
+    | select "[platform:\\/resource\\/school.instancemodel\\/BUTE.school][org.eclipse.emf.ecore.presentation.ReflectiveEditorID]/school.CourseWithoutTeacher - 1 match   (Runtime)"
+get-view "Query Explorer" | get-tree -index 1 
+    | get-item "\\[platform:\\/resource\\/school.instancemodel\\/BUTE.school\\]\\[org.eclipse.emf.ecore.presentation.ReflectiveEditorID\\]/school.CourseWithoutTeacher - 1 match   \\(Runtime\\)" 
+    | get-property caption | equals "school.CourseWithoutTeacher - 1 match   (Runtime)" | verify-true
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
