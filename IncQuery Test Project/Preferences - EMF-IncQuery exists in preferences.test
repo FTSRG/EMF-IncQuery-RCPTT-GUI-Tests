@@ -1,0 +1,19 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: Preferences - EMF-IncQuery exists in preferences
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _kbD28OzkEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/27/15 4:49 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-preferences-menu | click
+get-window Preferences | get-tree | select "EMF-IncQuery"
+get-window Preferences | get-tree | get-item "EMF-IncQuery" | get-property caption | equals "EMF-IncQuery" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
