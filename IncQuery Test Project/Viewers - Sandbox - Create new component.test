@@ -1,0 +1,21 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _sAENkOzxEeS2zK4PLaWtaA,_d4VhEOz1EeS2zK4PLaWtaA,_8ti6sOz1EeS2zK4PLaWtaA,_8KFf8O0DEeS2zK4PLaWtaA
+Element-Name: Viewers - Sandbox - Create new component
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: __LIkMO0FEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/27/15 8:00 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "IncQuery Viewers Sandbox" | get-button "Create new component" | click
+get-view "IncQuery Viewers Sandbox" | get-group "Activated queries" -index 1 | get-tree 
+    | get-item "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" | get-property caption 
+    | equals "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

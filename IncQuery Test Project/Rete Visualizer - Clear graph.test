@@ -1,0 +1,43 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _sAENkOzxEeS2zK4PLaWtaA,_d4VhEOz1EeS2zK4PLaWtaA,_8ti6sOz1EeS2zK4PLaWtaA
+Element-Name: Rete Visualizer - Clear graph
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _ibtRsO0NEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 4/27/15 8:50 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Query Explorer" | get-tree -index 1 
+    | select "\\[platform:\\/resource\\/hu.bme.mit.examples.uml.instances\\/empty-classes.uml\\]\\[org.eclipse.uml2.uml.editor.presentation.UMLEditorID\\]/uml.emptyclass.superClass - 5 matches   \\(Runtime\\)" 
+    | double-click
+get-view "Rete Visualizer" | get-canvas | get-property "getNodes().size()" | equals 13 | verify-true
+with [get-view "Rete Visualizer"] {
+    with [get-canvas] {
+        mouse-enter 315 1 -height 178 -width 993
+        mouse-move 642 47 -height 178 -width 993
+        get-figure "0/2" | mouse-move 544 26 -height 44 -width 829
+        mouse-move 723 26 -height 178 -width 993
+        get-figure "0/19" | mouse-move 408 1 -height 21 -width 411
+        mouse-move 797 1 -height 178 -width 993
+        mouse-exit 801 "-1" -height 178 -width 993
+    }
+    get-button "Refresh Graph" | click
+    get-button "Clear Graph" | click
+    with [get-canvas] {
+        mouse-enter 810 2 -height 178 -width 993
+        mouse-move 540 6 -height 178 -width 993
+        mouse-exit 496 "-2" -height 178 -width 993
+        mouse-enter 272 3 -height 178 -width 993
+        mouse-move 210 2 -height 178 -width 993
+        mouse-exit 200 "-4" -height 178 -width 993
+    }
+}
+get-view "Rete Visualizer" | get-canvas | get-property "getNodes().size()" | equals 0 | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
