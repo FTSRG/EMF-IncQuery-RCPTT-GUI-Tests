@@ -5,27 +5,29 @@ Element-Type: testsuite
 Element-Version: 2.0
 Id: _oRFNIN0IEeSqCbiyW6IFWQ
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 4/27/15 2:17 PM
+Save-Time: 4/27/15 3:53 PM
 
 ------=_testcase-items-62c497da-4241-31f4-811a-6b453a3ecff8
 Content-Type: text/testcase
 Entry-Name: testcase-items
 
-_w63gQMUIEeSpxbwabAnitw	//
-_JIM3UN0NEeSqCbiyW6IFWQ	//
-_uCM6YN0MEeSqCbiyW6IFWQ	//
-_AYBGAN0LEeSqCbiyW6IFWQ	//
-_0pKx4N0NEeSqCbiyW6IFWQ	//
-_Gldi4N0PEeSqCbiyW6IFWQ	//
-_TtKnsN0JEeSqCbiyW6IFWQ	//
-_CiWsEN0KEeSqCbiyW6IFWQ	//
-_F1cX4N6TEeSH_c6z_E9ixw	//
-_sVLfIN6REeSH_c6z_E9ixw	//
-_ofGfEN6JEeSH_c6z_E9ixw	//
-_7eBcoN6IEeSH_c6z_E9ixw	//
-_N2_QoN6MEeSH_c6z_E9ixw	//
-_zLjd4N6NEeSH_c6z_E9ixw	//
-_wrVR8N6PEeSH_c6z_E9ixw	//
-_sLPVcN6QEeSH_c6z_E9ixw	//
+_w63gQMUIEeSpxbwabAnitw	// kind: 'test' name: 'Result Viewer - Query Results' path: 'Result Viewer - Query Results.test'
+_JIM3UN0NEeSqCbiyW6IFWQ	// kind: 'test' name: 'Magic Green Button - Load as model' path: 'Magic Green Button - Load as model.test'
+_uCM6YN0MEeSqCbiyW6IFWQ	// kind: 'test' name: 'Magic Green Button - Load pattern(s)' path: 'Magic Green Button - Load pattern(s).test'
+_AYBGAN0LEeSqCbiyW6IFWQ	// kind: 'test' name: 'Magic Green Button - Load ResourceSet' path: 'Magic Green Button - Load ResourceSet.test'
+_0pKx4N0NEeSqCbiyW6IFWQ	// kind: 'test' name: 'Pattern Registry - Show location' path: 'Pattern Registry - Show location.test'
+_Gldi4N0PEeSqCbiyW6IFWQ	// kind: 'test' name: 'Pattern Registry - Unregister pattern' path: 'Pattern Registry - Unregister pattern.test'
+_TtKnsN0JEeSqCbiyW6IFWQ	// kind: 'test' name: 'Register patterns in Query Explorer' path: 'Register patterns in Query Explorer.test'
+_CiWsEN0KEeSqCbiyW6IFWQ	// kind: 'test' name: 'Register patterns in Query Explorer (Right clicked in editor)' path: 'Register patterns in Query Explorer (Right clicked in editor).test'
+_F1cX4N6TEeSH_c6z_E9ixw	// kind: 'test' name: 'Details/Filters - Filtering' path: 'Details_Filters - Filtering.test'
+_sVLfIN6REeSH_c6z_E9ixw	// kind: 'test' name: 'Details/Filters - Popup window' path: 'Details_Filters - Popup window.test'
+_ofGfEN6JEeSH_c6z_E9ixw	// kind: 'test' name: 'Pattern Registry - Checkbox filtering' path: 'Pattern Registry - Checkbox filtering.test'
+_7eBcoN6IEeSH_c6z_E9ixw	// kind: 'test' name: 'Pattern Registry - Plugins can not unloaded' path: 'Pattern Registry - Plugins can not unloaded.test'
+_N2_QoN6MEeSH_c6z_E9ixw	// kind: 'test' name: 'Result Viewer - Automatic syncronization (CHANGES WORKSPACE!)' path: 'Result Viewer - Automatic syncronization (CHANGES WORKSPACE!).test'
+_zLjd4N6NEeSH_c6z_E9ixw	// kind: 'test' name: 'Result Viewer - Data binding' path: 'Result Viewer - Data binding.test'
+_wrVR8N6PEeSH_c6z_E9ixw	// kind: 'test' name: 'Result Viewer - Show location (to .eiq file)' path: 'Result Viewer - Show location (to _eiq file).test'
+_sLPVcN6QEeSH_c6z_E9ixw	// kind: 'test' name: 'Result Viewer - Show location (to instance model)' path: 'Result Viewer - Show location (to instance model).test'
+_PWgmcOzhEeS2zK4PLaWtaA	// kind: 'test' name: 'View menu - Change pattern registry's package representation' path: 'View menu - Change pattern registry's package representation.test'
+_Kdv10OzjEeS2zK4PLaWtaA	// kind: 'test' name: 'View menu - Reset UI' path: 'View menu - Reset UI.test'
 
 ------=_testcase-items-62c497da-4241-31f4-811a-6b453a3ecff8--
