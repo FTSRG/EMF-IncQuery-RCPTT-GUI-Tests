@@ -32,8 +32,8 @@
             <explicit>${runnerPath}</explicit>
           </runner>
 		  <testOptions>
-			<execTimeout>60min</execTimeout>
-			<testExecTimeout>10min</testExecTimeout>
+			<execTimeout>3600</execTimeout>
+			<testExecTimeout>600</testExecTimeout>
 		  </testOptions>
         </configuration>
       </plugin>
