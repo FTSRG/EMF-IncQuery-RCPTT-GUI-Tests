@@ -36,7 +36,10 @@
     </plugins>
   </build>
 
-
+  <testOptions>
+    <execTimeout>60min</execTimeout>
+    <testExecTimeout>10min</testExecTimeout>
+  </testOptions>
   
   <pluginRepositories>
     <pluginRepository>
