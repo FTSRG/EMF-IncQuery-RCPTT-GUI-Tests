@@ -35,6 +35,9 @@
 			<execTimeout>7200</execTimeout>
 			<testExecTimeout>600</testExecTimeout>
 		  </testOptions>
+		  <skipTags>
+			<skipTag>testToSkip</skipTag>
+		  </skipTags> 
         </configuration>
       </plugin>
     </plugins>
