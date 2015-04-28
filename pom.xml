@@ -31,15 +31,16 @@
           <runner>
             <explicit>${runnerPath}</explicit>
           </runner>
+		  <testOptions>
+			<execTimeout>60min</execTimeout>
+			<testExecTimeout>10min</testExecTimeout>
+		  </testOptions>
         </configuration>
       </plugin>
     </plugins>
   </build>
 
-  <testOptions>
-    <execTimeout>60min</execTimeout>
-    <testExecTimeout>10min</testExecTimeout>
-  </testOptions>
+
   
   <pluginRepositories>
     <pluginRepository>
