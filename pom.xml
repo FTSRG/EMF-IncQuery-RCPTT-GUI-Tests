@@ -24,9 +24,9 @@
         <configuration>
           <aut>
             <explicit>${autPath}</explicit>
-			<!--<vmArgs> 
-				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/usr/test/test.exec</vmArg>  
-			</vmArgs>--> 
+			<vmArgs> 
+				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/usr/test/jacoco.exec</vmArg>  
+			</vmArgs>
           </aut>
           <runner>
             <explicit>${runnerPath}</explicit>
