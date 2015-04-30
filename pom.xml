@@ -39,10 +39,14 @@
 		  </testOptions>
 		  <skipTags>
 			<skipTag>testToSkip</skipTag>
-		  </skipTags> 
+		  </skipTags>
+		  <!--Remove if you want to run all tests!-->
+		  <suites>
+            <suite>IncQuery Project Tests</suite>
+          </suites>		  
         </configuration>
       </plugin>
-	  <plugin>
+	  <!--<plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
 		<version>0.7.5-SNAPSHOT</version>
@@ -57,7 +61,7 @@
 				<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
 			</systemPropertyVariables>
 		</configuration>
-	  </plugin>
+	  </plugin>-->
 	  
     </plugins>
   </build>
