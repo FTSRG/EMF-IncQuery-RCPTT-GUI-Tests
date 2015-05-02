@@ -38,6 +38,7 @@
 		  <testOptions>
 			<execTimeout>7200</execTimeout>
 			<testExecTimeout>600</testExecTimeout>
+			<contextRunnableTimeout>540000</contextRunnableTimeout>
 		  </testOptions>
 		  <skipTags>
 			<skipTag>testToSkip</skipTag>
@@ -51,8 +52,8 @@
 			<suite>IncQuery Query Explorer Tests</suite>
 			<suite>IncQuery Validation framework</suite>
 			<suite>IncQuery Testing Framework</suite>
-			<!--<suite>IncQuery Viewers</suite>-->
-			<!--<suite>IncQuery Rete Visualizer</suite>-->
+			<suite>IncQuery Viewers</suite>
+			<suite>IncQuery Rete Visualizer</suite>
           </suites>		  
         </configuration>
       </plugin>
