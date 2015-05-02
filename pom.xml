@@ -12,8 +12,8 @@
   <properties>
     <autPath>/usr/eclipse-IncQuery-AUT/</autPath>
     <runnerPath>/usr/rcptt.runner-incubation-1.5.6-N201504182315.zip</runnerPath>
-	<jacoco.version>0.7.0.201403182114</jacoco.version>
-	<jacoco.targetdir>${project.basedir}/target</jacoco.targetdir>
+	<!--<jacoco.version>0.7.0.201403182114</jacoco.version>-->
+	<!--<jacoco.targetdir>${project.basedir}/target</jacoco.targetdir>-->
   </properties>
   
   <build>
@@ -47,10 +47,16 @@
 		  <!--Remove if you want to run all tests!-->
 		  <suites>
             <suite>IncQuery Project Tests</suite>
+			<suite>IncQuery Preferences</suite>
+			<suite>IncQuery Query Explorer Tests</suite>
+			<suite>IncQuery Validation framework</suite>
+			<suite>IncQuery Testing Framework</suite>
+			<suite>IncQuery Viewers</suite>
+			<suite>IncQuery Rete Visualizer</suite>
           </suites>		  
         </configuration>
       </plugin>
-	  <plugin>
+	  <!--<plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
 		<version>${jacoco.version}</version>
@@ -64,12 +70,12 @@
 						<goal>prepare-agent</goal>
 					</goals>
 				</execution>
-					<!-- <execution> <id>report</id> <phase>prepare-package</phase> <goals> 
+					<execution> <id>report</id> <phase>prepare-package</phase> <goals> 
 						<goal>report</goal> </goals> <configuration> <dataFile>${jacoco.targetdir}/jacoco.exec</dataFile> 
 						<outputDirectory>${jacoco.targetdir}/jacoco/${project.artifactId}</outputDirectory> 
-						</configuration> </execution> -->
+						</configuration> </execution>
 			</executions>
-		</plugin>
+		</plugin>-->
 	  
     </plugins>
   </build>
