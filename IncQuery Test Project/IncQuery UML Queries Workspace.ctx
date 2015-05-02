@@ -6,7 +6,7 @@ Element-Type: context
 Element-Version: 2.0
 Id: _sAENkOzxEeS2zK4PLaWtaA
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 4/27/15 8:17 PM
+Save-Time: 5/2/15 7:40 PM
 
 ------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/emptyclass/EmptyClass.eiq-ff4de7eb-ca30-32a8-94b2-eafbb245e5e2
 Content-Type: q7/binary
@@ -41,6 +41,26 @@ gPPELH/wol3SytmFEDWVikEuYw7rfrv+lC9QSwcI27wOBmwAAACgAAAAUEsBAhQAFAAICAgAAAAhANu8
 DgZsAAAAoAAAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250ZW50UEsFBgAAAAABAAEANgAAAKIAAAAAAA==
 
 ------=_contents/hu.bme.mit.examples.uml.incquery/generator.eiqgen-c0ed8b68-4e51-3904-901b-c8271ad5788a--
+------=_contents/hu.bme.mit.examples.uml.trace.model/build.properties-a129b7fc-6512-3704-9218-7017c70001a0
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/build.properties
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnRT5uJKyszTy8xLzilNSS1WsFXQ04nh
+UkAFufkpqTn6mOK+riGOup5+blikCnJK04HmVuTm4JQrKMovSC0qyUwt5spKLCrWS87PLcjMSdXLL0pJ
+LQI5hKs4v7QoOVVPD8gpLkrW58ovLSkoLQHzgY7W5wIAUEsHCARYlZVzAAAAvQAAAFBLAQIUABQACAgI
+AAAAIQAEWJWVcwAAAL0AAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAACp
+AAAAAAA=
+------=_contents/hu.bme.mit.examples.uml.trace.model/build.properties-a129b7fc-6512-3704-9218-7017c70001a0--
+------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs-3a9b6df1-73f6-3978-9387-39a938414626
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVjrEKAjEQRHs/ZuEauzR2WvkL8TJ3
+rCSbMJsT/HsjXO/ZDMMwDx7mrM0hjVhA2AyXF+haLUynylWwP56py1yJEaVpBkdJWGGiltVwc17eHd8x
+wOIjIx3ke+SKfs+xL5UlTHL+CZaWNQ7ZA+fGOlyKRHewXxOs66JgAFl5EIZt5U/U68Zd8ANQSwcIBKDI
+j4cAAABlAQAAUEsBAhQAFAAICAgAAAAhAASgyI+HAAAAZQEAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
+ZW50UEsFBgAAAAABAAEANgAAAL0AAAAAAA==
+------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs-3a9b6df1-73f6-3978-9387-39a938414626--
 ------=_contents/hu.bme.mit.examples.uml.instances/model.di-ddc834c4-f6fc-3918-bf28-356e698c4e6e
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.instances/model.di
@@ -72,74 +92,83 @@ LDNa7sk7sY1MrNSruSC+Y26ennBZSy8WQkMP+zZ/QpdghYfs6doEvmL0ylTO7Vxw/H3G1icTHNO3ExNO
 LT06tnjh0Hc3zmTwD1BLBwi4f05YPwIAAK0GAABQSwECFAAUAAgICAAAACEAuH9OWD8CAACtBgAACAAA
 AAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAdQIAAAAA
 ------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.genmodel-4c782ffd-fda4-346d-9aba-6e6c4d9bf62d--
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/sequencediagram/SequenceDiagramValidation.eiq-f50338f1-2a73-3848-af40-cb878b4ae0e2
+------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.xml-20ce14f1-104e-3a9b-b492-7441de7a441f
 Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery/src/uml/sequencediagram/SequenceDiagramValidation.eiq
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/plugin.xml
 
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSdV0uP2zYQPse/gvVJRgUpKHpKu0DX
-8iJZYP0ANk2PAS2NbSISpVDUOpui/73DkURRr90gF4scfvMeDscFj7/wM7AqS4MSvlYgY0gEPyueLRYi
-K3Kl2fKidfEuDK/XawBxKooSglydQ+T5Lfw9eBu8Df/ePiwXi4JrDUoyIS+ghOYoayN4lsvEu/XZ2meR
-zzYr9u/izUnIhGnFZSm0eILHqgAVpbwsCbj64xVEZBASzmwetf4hVPSqtrUx+UVE1CDW7JcbFuGCyIHk
-GRju9Q4Xqz4ZWaKWHF8g/sI8grE/Lf2/LpwZlCXm6B+hL3mlb8syjwXXIpfetj7x2WNeqRg+Phe4/sjV
-GbRZd6FuRNw9gdTlkI2oLR9trMMtn0yMPK+H73TOwR2JPbPctBS5xmPBU8evNegrgPRmvOoFp5IKTqCo
-bpt8sHeMVuR+GLJdrlkHYsdnduBY34D8PvvEleDHFNhB5ZhS/cw8IeM0YI49DB1a+Qx0HDiWX3hJXn42
-v0ldbmhYGLamxcYIk7X7jRcZY8LwTcvZajOlcL9pdyjBwZhK8LpDny3vN0uCkJoPkCKdNdpKG5FEKIi1
-U6CP1bENCWbN0HsReg8SFE/Fd/I1KAuIxUnEHtIN/GjS1ceYozE1ONfblhH19FM1eXtQQQu21TrlgSOR
-5erlHkLwrUiSFLZc2uocibWQSXNLQ9qru68VT+cCSTYb8s1NTRiYN1T5a98VrM5XvJiwK7/Kco/UOhVR
-Z9Eel/aALKtbDjJA4nAgciyxK8hO4AGXtjTJU62qWFequWpYJqBq8bdaK3GsNPW2Q188lnJfe89GCsA4
-1gaHgutY2BT2fe8ArtChbveqHX5OpRXhahx7WTc90w0wcPS9SyGrux/uGiKZ4J4G2vLVwJFg6gTmxwim
-rxVMz4WR6JLrV4YoDWLqQWnb9NZuqVWjioayj+NKUdd8bJoCRdhnDSfpfRAnSIWEIM6fsMUm62fvAbc+
-G4g1AW2xhHAJgYJCQUmvU81NLdpAbK/2LKnXfonamdRzlHc9vHWW2jq66LR3Y2p2BIUQp+CtSDdtDleQ
-tUy1TEeKsXGcYHs8Y+xPvIQvFLPL0TzbVukcTyfZTgMDnrmAtjocH6eVzguoFToCRhYMVJhxa8BE8fxr
-fyxBPZlH/RNPKxiVfW8I6qrdZ62KH7wGmORuwHkVTslqIDhqN7dichYzzrZIfD8A34UBuD+rTTjtmQ7A
-btiShhDTApY4wHwzl6w0Ew2eRNQllqt53miexxZtc1t2lUnB/kSFdC8P9d8K74D3qV7ifNQ9LLucotEc
-BUX9ba+Ld2hm911u3tU4rzC8U4PTZ+P7/1BLBwi2Pr527wMAAMIMAABQSwECFAAUAAgICAAAACEAtj6+
-du8DAADCDAAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAJQQAAAAA
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/sequencediagram/SequenceDiagramValidation.eiq-f50338f1-2a73-3848-af40-cb878b4ae0e2--
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.notation-e21aab37-80bd-3acc-8f47-42a2f529357e
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkUtPAyEUhffzK5A9YOPGGOjsmrho
+YkxdG2SuU1Je4WHafy+M09FJjIlsuBfOPZwv8P5sDfqAmLR3Am/oLUbglB+0GwV+OezIPe63He9BGR0S
+fEvvqrTedPyGkI6QVgVTRu1qhRDicM7gmhQFr10W2MeRzi4U7HutfQQ6goMoMwyvQaqTHAFv23hzmA/m
+9muVqAU+5hweGDsW+maBWp1psYbmKBWwRrCaUEamVFGsOTQBvRZP83MrcU2z9wMYgW3bWPUlk2/LOR1h
+NuXjbOH7H+8iq7wxQfyJ2/pVnHwJIHANMWX4m6tkbRa4Z0i+RAU7qbKPl0cbfg/O2fXPPgFQSwcIBeBO
+Ff8AAAAJAgAAUEsBAhQAFAAICAgAAAAhAAXgThX/AAAACQIAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
+ZW50UEsFBgAAAAABAAEANgAAADUBAAAAAA==
+------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.xml-20ce14f1-104e-3a9b-b492-7441de7a441f--
+------=_contents/hu.bme.mit.examples.uml.trace.model/.classpath-d7a144e2-226e-337c-a927-a5d647475e0a
 Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/alternative/model.notation
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.classpath
 
-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
-AAEAAQA2AAAAqwgAAAAA
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.notation-e21aab37-80bd-3acc-8f47-42a2f529357e--
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkMFqAjEQhs/1KZbcna2X4mFXKWUL
+FdSiW68lJsM6bTqJk0Tq2+tCpUVoobf5h28+fqaafn644oASyXOtRnCrCmTjLXFXq5f2cThW08mgMk7H
+GHTaTQY33wE5ybF4J7a1Mp5V0S9r5aUDNI5CRHizCZzObHZnI8xWzevDctHePy2aVXnNEScU1g4sbnMH
+mb4uUWCdNFstdjNvjwHLmT7odTMcwZ0q/9soWATjBUFwn0nQPrvcEcc/TFHMxdSPv4M+p5DThd0S92xV
+/vjeCVBLBwhJSvu2zgAAAHEBAABQSwECFAAUAAgICAAAACEASUr7ts4AAABxAQAACAAAAAAAAAAAAAAA
+AAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAABAEAAAAA
+------=_contents/hu.bme.mit.examples.uml.trace.model/.classpath-d7a144e2-226e-337c-a927-a5d647475e0a--
+------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag-26fb7afb-f8c0-368a-9c3e-8e5fd8ab0707
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag
+
+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
+------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag-26fb7afb-f8c0-368a-9c3e-8e5fd8ab0707--
+------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.properties-78d0b287-4b2f-3637-8d82-8cec05dc813c
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/plugin.properties
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnRT5uIqyClNz8zzS8xNVbBVCM3N0S0p
+SkxOVfDNT0nN4Sooyi/LTEktgkqXl5frpVYk5hbkpOrlF6VzAQBQSwcIu/2CdDwAAAA/AAAAUEsBAhQA
+FAAICAgAAAAhALv9gnQ8AAAAPwAAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250ZW50UEsFBgAAAAABAAEA
+NgAAAHIAAAAAAA==
+------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.properties-78d0b287-4b2f-3637-8d82-8cec05dc813c--
+------=_contents/hu.bme.mit.examples.uml.incquery/.classpath-799190c4-0db0-33d4-99e0-e9f01c90dcb9
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.incquery/.classpath
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkMFqAjEQhs/1KZbcd1IvpYddpZQV
+KmiLbr2WmAwxNp3ESSL17atQqfQg7W1m+P6P4W/Gnx++2iMnF6gVQ7gVFZIOxpFtxWs/qe/FeDRotFcp
+RZU3o8HNz4KU+VC9OzKt0IFEdTq2IrAF1N7FhLA1GbwqpDdHI0wX3dvj87x/eJp3C/mbc5SRSXkwuC4W
+ivtOIsMyKzKKzWrWHyLKqdqrZVcP4U7I/34UDYIOjMC4K47RvPhiHaUrpsT6bDqO8s9kbZGu0aHkWPI5
+sHZ0Yht5UfYXUEsHCCquFULTAAAAoAEAAFBLAQIUABQACAgIAAAAIQAqrhVC0wAAAKABAAAIAAAAAAAA
+AAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAAAJAQAAAAA=
+------=_contents/hu.bme.mit.examples.uml.incquery/.classpath-799190c4-0db0-33d4-99e0-e9f01c90dcb9--
 ------=_contents/hu.bme.mit.examples.uml.incquery.validation/.classpath-5a4fcccf-b53e-369f-924a-1b4414e61037
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.incquery.validation/.classpath
@@ -151,6 +180,32 @@ ivtOIsMyKzKKzWrWHyLKqdqrZVcP4U7I/34UDYIOjMC4K47RvPhiHaUrpsT6bDqO8s9kbZGu0aHkWPI5
 sHZ0Yht5UfYXUEsHCCquFULTAAAAoAEAAFBLAQIUABQACAgIAAAAIQAqrhVC0wAAAKABAAAIAAAAAAAA
 AAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAAAJAQAAAAA=
 ------=_contents/hu.bme.mit.examples.uml.incquery.validation/.classpath-5a4fcccf-b53e-369f-924a-1b4414e61037--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java-60b95af9-77f4-3997-a644-72a540d0d566
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTNWMtu2zgU3fsrbjOLtMFYajuzmrpG
+jFSZGmjdQlaA2Rm0dG1rIlEGSQMtivx7+dAreliOYzvupgpJk+eeQx5eXvvqqgdXdm9N/HuyRLiLI48R
+Hz/0emG8TpiAhC0t9KNwzdHCeCG/E4aWcxMRzj90DPpuZu0a5uICGVK9qq0BweBVvw9zXIa0v+HI+kHi
+Q78/VF3eCmEwH6ZzD+z5EBYJAyGb4yTAyFKDxgL8hAoSUg7E95HzhPFiHAoCyfx/9AUHkQDDNUOOVOil
+N5FeB2AQhUMk/gp8FeyfA1v+XelZIBEbhpAsoGMk0k1c7SA0MD8LiAQkfq4xHzCwUxiaCaRBjYdrjoVe
+VvZxS3yRsJ96gKYD7kMafLxIBb7QHUukyIjAwGi/mUehDyEVyBZyinzSlGLAH0IC4JDpCb96MgDQUql/
+RpNsC1ESo5V1tOpY6q4HZzrLMHWLrf+fChbSJeBk9NWBj3CRob2Qu6cDFl/r8NzxSfBNZ3IlhXAlxPof
+215trLmkJg6FtYkjSyjQ9jvr7c7AT8bsdPbddW7H/ynwEqrYQi+Xv4hQJFTuHy6IPMTqLIgC/zEB1zbq
+eDL1RpMbtS/ykyG9J7IqI8eqLaSheP2mOaySQ0AY5MZx+es6Cul9ZXL96UQYSwdRM8MA46FuhLR1YMuW
+h0tjD4dh5NHpb4SxZWgDHX8sUZRneP2mg3zpF+C5oxtn5nxxvjoTT5L+tpnNzCXLTCqOpI1Pkw3ztYtr
+ji6lF6eXwXE2DlwnLJALdMQym02/3bl6Iz09Jo8wSeYZxuSN3H8dpdO7J8c0pitkoVwT2hWDKOTihUMc
+Tz477thzPhUCvn9GsO1SnlewubJ/NQcrk485MmXNXLCNLwMnUcYAzxz7stm3Dmpb+8Z664y8O9eZ3Xy7
+007zt4yzGqiLMhyZ8FVSPC2vDqHu32XHa7Xtw0TONLpt4Froz5d/bORl6B1WbbJ1qDl8fa9so1C1Fdt/
+K5XqMjE+oUnNLOM0bFZwVgDsQmcBv3QLqtFPviSLt02V/Vm2wFFFMP5ldnZqZS8mQgnAriKYnxxRhGyB
+54igLoJuJfI7pXQu6pfqS4hj8Lfi2VWrSoBHFK220gnVKx2oepZwLurtcdIqAZ5Cvd3O3sIUNOQ3EeAz
+mbKg6cjem3n6klV/Dsv+vut3PFnTOo1ip9LUREhHMJ9wEVIJJJK0ysSurdClIiiVutKpdZ3JfLeVvGq9
+W8tetdHl0le5s7X8lSKzS9D2KQ8UFa0vGTGmcvWIXTNF9dGfUnmUl/8OmnYG3XSmt1QBWoc/oRLQzHWJ
+b33wTapZLQzklRmrLQndR5POGkK2UQ9PfAcLhf21lRVaGakmhs8gZsvr9eyIyV+w7cRULoxnELNzNeP8
+eGoocLQz1pYpHYS6jtrIOVO3w2ZrS1Meer0HsO2Kb/Z+A1BLBwgW/BbGNAQAAEkbAABQSwECFAAUAAgI
+CAAAACEAFvwWxjQEAABJGwAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAA
+agQAAAAA
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java-60b95af9-77f4-3997-a644-72a540d0d566--
 ------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceSwitch.java-fbae98fe-4cc9-3dfb-b11c-268a5e2a984c
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceSwitch.java
@@ -174,6 +229,25 @@ sgq6zLWd9ly5LC4awbDo8Iwn+oOgd0JcCkk0PjpWnm+JTYxOmy4mOxzfAqJ47wS+Scr8jaK7jj17Ce1d
 mrnwOlY9QpIMr2uT/wFQSwcIQAPxVKgDAADFDQAAUEsBAhQAFAAICAgAAAAhAEAD8VSoAwAAxQ0AAAgA
 AAAAAAAAAAAAAAAAAAAAAC5jb250ZW50UEsFBgAAAAABAAEANgAAAN4DAAAAAA==
 ------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceSwitch.java-fbae98fe-4cc9-3dfb-b11c-268a5e2a984c--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java-fa0533b3-9625-3be8-ac36-019620c99bad
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9VU1v2zAMvftXsLnUThF5uzZt0CD1
+gABbWnTZeVBkxtEmf0CW2w5D//tk2Y7lj6ynRhcrFCm+Rz4x/nTqwNR3Msp+0wjhRyy2kjIkPM7E3HH0
+J5WqNU9bWyojgkzwLEeC8V7vU4kkWAma5/N3nB52v5Cp97weK1DvpSyhkuALZSqVf9Yd3OMBmSginpCg
+/PFo9jrCN5WAm4vZDHaobbMiRzkLUwaz2aI8WiZQpsIYE0UVTxNI96AOCHEaooCb3aLGcOPvFuR4GSbh
+4Kq7CBOUVGFYVb/YCc6AlaU71toiBPiq9DU52CxbMIMY+OuAXoZSuaawkqiz5QZuiHtaCAX72rlLijQh
+JythHQ+5VYc2P2PxzbfmmZeZ2AA0T7hyvRp7udSRSbP6IZpO33QLbs/kNUIiT5pNrm8l68337XKzCkiE
+qqmpOzkolV37/qEguxhJzBUpYkFUeZX/mXyaeHPooOF7cEcQXNxCUgjh9bCXS6IqZDICe95xfXOGO0YV
+O4AbvDLMjPiw2fUTWbpuiYo0ctuI+UiCGluCL2MSdOuYN+eUtKh+HolubcKweRi1ws4gqVHEVl3yIkN5
+msMHALt7eEYpeYg2zHrwATM1c6thCWg+Hbgv3HS7OilVajZ8z1Gu712v33JG83Z2N2rfPi1Xwc/ga/At
+2Gyvm/5WqY1jUD171+uqr54P1wP1qoNMX4xA1kJgRMVSRkV5w1GU7mSr217NscsJXEFLYENj1C25gskl
+8BySVAGFZyp4WPkbbpOBMs/Sq7o7dlFG62RV3T4w01jZwbemSn0fu9DNJLBczijO3qupFQO6TT1Th3ON
+2e35eOUQPfp/CIsQM4nMonHy1d13Pcf/cSy+/+HZf0/YDNMjxTfw/ZHJ4/wDUEsHCJ4oKXWbAgAAVgkA
+AFBLAQIUABQACAgIAAAAIQCeKCl1mwIAAFYJAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYA
+AAAAAQABADYAAADRAgAAAAA=
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java-fa0533b3-9625-3be8-ac36-019620c99bad--
 ------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.uml-2c09b3ab-e43b-3392-a6fa-7e914b789e02
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.instances/empty-classes.uml
@@ -201,6 +275,30 @@ NrHF8UXw9w5FuAWoOSocWhA04cGmeUlNxsm6ul0oN6EPVnty3SSQHGEyQf6xYx96CP57AVBLBwiNH9j3
 SgAAAFYAAABQSwECFAAUAAgICAAAACEAjR/Y90oAAABWAAAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
 bnRQSwUGAAAAAAEAAQA2AAAAgAAAAAAA
 ------=_contents/hu.bme.mit.examples.uml.incquery/.settings/org.eclipse.pde.core.prefs-8816b2b2-708e-3ced-8750-fc83b903a1eb--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java-38a7b01a-d9da-3e54-b0cb-95e0fcb0f384
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStU0tOwzAQ3ecUw6pQKfEBCBEIFamb
+CkE5gONMUoNjR7YDVIi7M3ESWqUqCFRvbM28+bw3YzafRzBnUcPFC68Qnmq1tlzgZRTJujHWg7FVgkLJ
+xmGCdUlvYzFZ3HHhjd0SjoUUkJ7FMeRYSR23Dm1cGAFxnHWu9QYhzbMhJGV5BqWx4MlcmwJV0oGWHhpr
+XmWBDjgIi9yTG/3GFAGNXGxAGx3z3Hlq0YNQ3Dkw5SRRaAR1cdDGtcMdwWR83PfMA6BCjZbqFr0mba6k
+AKk92pKQ37EDEcB3T3UcjGLARwR0giDd6Zk7qSuF3mjK5DzXlGjouezDkhF9VMI99yGx3rnfe7CwcB+0
+vFw9rm9Wtwu42klBk1bJBLnsbFJLf35BM57QekDfWt3NSeMbmPwZaRxEqp/ILMU6C7lgobBG7VNGltlp
+eNpQ+7+lj8gUQoaIYff2TT9p0A1y/D2ubbo/gwXkW3JId9oRD9T/VvGXxRjWHyr0E1Mg/QmMTTYj+gJQ
+SwcIg8yd0X0BAAA0BAAAUEsBAhQAFAAICAgAAAAhAIPMndF9AQAANAQAAAgAAAAAAAAAAAAAAAAAAAAA
+AC5jb250ZW50UEsFBgAAAAABAAEANgAAALMBAAAAAA==
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java-38a7b01a-d9da-3e54-b0cb-95e0fcb0f384--
+------=_contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs-9281ac49-5785-3aba-a670-81f326441ecf
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVjrEKAjEQRHs/ZuEauzR2WvkL8TJ3
+rCSbMJsT/HsjXO/ZDMMwDx7mrM0hjVhA2AyXF+haLUynylWwP56py1yJEaVpBkdJWGGiltVwc17eHd8x
+wOIjIx3ke+SKfs+xL5UlTHL+CZaWNQ7ZA+fGOlyKRHewXxOs66JgAFl5EIZt5U/U68Zd8ANQSwcIBKDI
+j4cAAABlAQAAUEsBAhQAFAAICAgAAAAhAASgyI+HAAAAZQEAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
+ZW50UEsFBgAAAAABAAEANgAAAL0AAAAAAA==
+------=_contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs-9281ac49-5785-3aba-a670-81f326441ecf--
 ------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.notation-76f68c24-f582-313f-94fe-89481b662056
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.instances/empty-classes.notation
@@ -265,397 +363,6 @@ NLfc3389VbWXI0EbPgUsaLM8efzIjKJ0HvsR5pe89pfkIls8wj/nlWQ5695+HM7QaQkMbmbxzsLFvn5X
 s9oNTUfP1RVQSwcIgHkLr9IAAADBAQAAUEsBAhQAFAAICAgAAAAhAIB5C6/SAAAAwQEAAAgAAAAAAAAA
 AAAAAAAAAAAAAC5jb250ZW50UEsFBgAAAAABAAEANgAAAAgBAAAAAA==
 ------=_contents/hu.bme.mit.examples.uml.incquery.validation/META-INF/MANIFEST.MF-f9373765-0709-3811-b7b5-983a4af2d0cb--
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/statemachine/StatemachineValidation.eiq-b56a2124-e6c9-30cb-a130-b5f4d836c044
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery/src/uml/statemachine/StatemachineValidation.eiq
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS1Vd1r2zAQf47/ipvJgwvGKWNPG4Gt
-XcsKKylLxx6Lal8SMdvyJLmhjP3vO8mW/FEnpaN7sc/n0339Tr+rWPqTbRHqIk+UZhoLlu54iUHAi0pI
-DeFO6+r9YrHf7xNMc14pTITcLujA28W75DQ5XXy//hoGQcW0RllCrTC7lXy7Rbnm25LlKmre8B4a4QR+
-B7PWJGrfJx+CWfP34gFLHdnnSJkoKzf/YueMbILZhpcZoNFfCjlyHYNz9qfL8oAt5Tg8RYrmtMl5bRp0
-3TQoWmsjmfA2uG6OXZUTRjH0qmzFxGYwnaPkD+QDXK6luEa9E9lnpEiYRasKJdNclJScl22Cq4r9qvEM
-d+yBCxk5wYR1MssvkelaYlJYp523GKbsE1Vhyjc8tTbeZdyLbJP+eC5KpSXjVJSi2iTXj8sQpRQyjHPR
-HF92wQpUigZvGd7uEISvaO4t5rBjimqHrCkb7l1GYQyayS3qi4xrIa8yWEJIM+nns2LVo6xVwsuNZEkq
-pFc1J8ITPwc+8g9O3ah1W18tj3S5xC1YzA8CM42jK+ALU+vJplIkD4EJ9CwGAzdHUR5YDpH2WUdjdwdg
-Ne1ugQWHLOm6tFpsjZ1B19UNc2fisR0U1oHxqhAPL0WLc1d0r/lDyyHWz4I3jblhwzEnWN5yZBjDec6U
-ouj2fYxnXCTMrCmlQDSSetFfe/uXhuO/ENTs33l6oj3HkjL7oqf1OXYcfaxZfXUicWumiua4VFw3YsP7
-T+t/fug9m33DFKunbCadGubeYg45bVrlClavOuE+YDvcn1I7mT44dczLtmd2Qpo5Mb2yQiL2xGHezk1R
-d5AM/YeDuOtAbx03UtQp/CU6eBvaW/Cy9nvCGXS/rIt7GhKxoSGTjOiPum2+euTDJELGNxuUZsNvpCiA
-azUio94mek2seJmKgj74fY4Ht8CQiHq79skuetGaprubitqUbMDw7VltOja88+KN+933AcEM4M0Spt14
-BrpzUs/JiCfbdkwmcUNl9sMfrLpbc3Z4/ZloFcPNwUA+zXGcs+kd4Hs8DnLWRvkLUEsHCADJZ0IWAwAA
-RQsAAFBLAQIUABQACAgIAAAAIQAAyWdCFgMAAEULAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBL
-BQYAAAAAAQABADYAAABMAwAAAAA=
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/statemachine/StatemachineValidation.eiq-b56a2124-e6c9-30cb-a130-b5f4d836c044--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java-5c66d56f-fed5-3211-b96b-484fbf7a9fbc
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS1k99u2jAUxu/zFGd3gBbnAWCoKXgq
-UiATGIleRSYcqLXEjmyn7TT13eeEBEVlZXTrfBPb58/n3xc7GAw8GARewdPv/ICwzjOmeYqktCIbep7I
-C6UtKH0gmGaiMEgw35NU5bmSdRJZL2dvJ2KqNBKNRpXadV02k6sLXFZ2qvrKU6v0j5nb+1OD51yQzTzq
-6AU1KYw++T5s8SCkXxrU/k6l4PvjKsQeEEbbcVsDjdwo2I6BG6NSwS3u4EnYB7Aut/GMnNqi3J01vTH4
-ylXSrlqhiqdOPaBEXWkcf0m5zUQKaea04XVNxwrAZ+uUDfwu9tMDN2r2agxgotEpGOAShDSWSweq9jVP
-azrsjw1IW/OmZ53wOfsx2IWqd4L628BdwOr1m8NXw5QF6l5/WG+8eH8B9T9hbuJH1FrssIt2ukZpfbh2
-2XPPBUotunSdi1qdt8wsfAGJT2f21L5UxcNT7TGfHNBOcc/ddMUfMS6sUNL0+qQoba/TnsTf2CxeJHTD
-6GJKp8mcsjCZhiz8DLdKZcglYcs1vSQQKb77CIF/RFhN7ug8TKJ4Elbrd7S/CmC9ogldTOKKIWRsObtd
-M5qs2H1Er7fqKpD3KH0AVEQ3s0kYJXfhYhrR5QUYW2rZCJ0e3gsEwYVH6/0CUEsHCN9eHT3nAQAAUAYA
-AFBLAQIUABQACAgIAAAAIQDfXh095wEAAFAGAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYA
-AAAAAQABADYAAAAdAgAAAAA=
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java-5c66d56f-fed5-3211-b96b-484fbf7a9fbc--
-------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs-d6963d54-9a6b-3d05-b19a-7d398e48ea88
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnQtydEJgDAMBcD/DhNwgO7gClpfJRKS
-NrHF8UXw9w5FuAWoOSocWhA04cGmeUlNxsm6ul0oN6EPVnty3SSQHGEyQf6xYx96CP57AVBLBwiNH9j3
-SgAAAFYAAABQSwECFAAUAAgICAAAACEAjR/Y90oAAABWAAAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
-bnRQSwUGAAAAAAEAAQA2AAAAgAAAAAAA
-------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs-d6963d54-9a6b-3d05-b19a-7d398e48ea88--
-------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.di-53c1cdcc-6d3f-38c8-917c-1813ea9b934a
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/empty-classes.di
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStUl1rwjAUffdXhOzZpjqYUFp1yBwF
-hY0O3NuIybUNS5OQRDv//VI/Oj9e93hPzsm55yTp5KeWaAfWCa0yPIhijEAxzYUqM/xczPIcT8a9lIuk
-oK5aCcV145aqtOinFkknHLbCcJVyScAzXHlvEkKapol0XUbaluRzmXcUd01pHg+MYRwPAm1RsApq2hfK
-eaoYnFX8WgRMCuPgoDTU7O3WkTgaRTFxYVMu8LiHUGpoCQvhfDuEke6okHQt4S3gRyygUG/aOeegvNgI
-sKiysMkw1Mbv+0xS58BFSnvqQ9qHL1Mw//76vXqBWU6f2IhWy3reYHIyIXcuKbncI20XXGoOErGttcG0
-AAnMH5okZNodk2lzLDyEmrJKSB7IoemTz+mwi3FmoNBv4vcGMhze7YOu51pysPhMvKD+Qf9ew7GKW6Nb
-JCUXKVLSRQ9/jtx/unHvF1BLBwhNel16UgEAALECAABQSwECFAAUAAgICAAAACEATXpdelIBAACxAgAA
-CAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAiAEAAAAA
-------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.di-53c1cdcc-6d3f-38c8-917c-1813ea9b934a--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java-fac70b98-2272-3c30-9696-f5c55942e761
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnR1kcFqwzAMhu9+Cu3WBWI/QEMpDAaF
-7VJa2NVx1dQstoPs0I7Rd5/tJqMkrS7Gkv5f+mxRFAwKwTqpvmWDsDftjqRC3gfdLhnTpnMUwFHDUbW6
-88jRHLlyxjibm/h+u3neiMoR8ovRPDa0/OvzY4ve9aRwE+9RJ/ICUL2UJdTYaFv2Hqk8OAVluUql3Qmh
-qlejDipRr0B675SWAQ9w1uEEITYNDPzfD+1h5rb2OKHk422c8C5VcPSTFsyKBi1SGnV7qb5utQLVxhVg
-Kk0awEuIkz1MYOGXQYwMnKKAN8Jo60Fa0NYHaSOdO2YWGoR87H36QHflOe+tuO4kSQM96ewdP2wcY/E8
-H3UPnDMinwP4I+RFsoz2rwNjCt93SIuUXObclbErCPFIzv4AUEsHCPmi/lUqAQAAhgIAAFBLAQIUABQA
-CAgIAAAAIQD5ov5VKgEAAIYCAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYA
-AABgAQAAAAA=
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java-fac70b98-2272-3c30-9696-f5c55942e761--
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/validation/PatternValidation.eiq-81f08908-dd21-3e52-bb23-887891295f39
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery/src/uml/validation/PatternValidation.eiq
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSdUctqwzAQPNdfYXJKaLBi01NKDsWE
-XlocCKVnxd44oo6sylJNWvLvXUk4lvM4tAfBanZ2ZrQSNP+gJYR6X0VftGIFVazmQcD2opYqHO2UEnNC
-2raNIK+YaCCqZUmQnpCHaBbNyNvryygIBFUKJA8bLUCmFW2a8Vpvwnlo62m4Nnh3nYQ/wd0zcJDo+G0d
-o0ZAzrYsHyNu6JvJ4znHtC7RqHTXbhB9kHQ8i5TJ5aem1a1kNpGBFwsHoEJYS4NuGS+8Z92b6as+dcub
-DFGXNe0dMixPDetkGxEOQOFNIPNScSVrZKiDL7jCssNdciV1rrSEwjJwjyCd/JNSkm20AiO/Gsrv6I28
-HXiRu9/FYJ8mOZq5BZkfsrzhPnqCZ+DyENIlUgcBSylrOU4rP895EEKcxeAFmZjiBEoScsTjyea15li8
-U8kZL/+jncaGel2bc8gVFBya5uQQ9w5p4rvFvp0Bkj/4xzbAtXZipVy+X1BLBwhWOj34bQEAANMDAABQ
-SwECFAAUAAgICAAAACEAVjo9+G0BAADTAwAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAA
-AAEAAQA2AAAAowEAAAAA
-------=_contents/hu.bme.mit.examples.uml.incquery/src/uml/validation/PatternValidation.eiq-81f08908-dd21-3e52-bb23-887891295f39--
-------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag-0be6e93c-f510-3cab-80ed-6a0aae2c7189
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTVV1Fv2kgQfs+vsHz3mLC2AUMRpGoT
-0lZNoqiQqlVVVRt7MFbWu771OsD9+huvMQVs0wTIw0lJNox3vtn5Zvbz0H87j5jxBDIJBR+YdsMyDeCe
-8EMeDMz78dVZ13x7ftLnQlGFW3qXIQ0kjYx5FPZWbk7mhkA86aF9YE6VinuEzGazhoiChpAB+XbzqdgC
-npCwsQk8FsYJ6I0QTYhjWQ4ZZtsKnyJ+rVuAbjLlKoyAYBYNhxQupj5r6A/MXyy5mA4vYjmEz9HXuw/p
-xyQaPwSmoRYxHkgHHAvBEtPgNEJLGrEzJamHx4iAJqmECLi656EamHfhHJh5fmIYfW8aMl8C14FyrBVf
-t8KHtRO0/Jmb1J7AtixbQyIovOMFSLIGrMnrDX8/XAf/R80fK8ATkUoPfUdTIZWXqmUIDOKDoiGrwB8p
-iR0wFvl6Q+MhV3KxHWtUjvUIi4EZYdLs06VpPFGWbjJLlumR9fyWtpfwGNCovpKtjEeyD2r3c1CL2v5d
-HYRN1IJBUgV6KekM5Ch7vo1dQZgnGKPYxbhHyRSKY++MMMI6YlkqQ4SlEM9BvAqZAlmHuajD7JOC3X3I
-fvNd7CLbOYRsxH5tsjHE0clGzOeTvePMUxpDCT3TngpSJoKrC8GExIvj2Fan7eS2W62B16kX+tT4ICnP
-ypc9+AhhMFWZXOHnkLGls93suLZlu6bBQg5LYxch21ZrlQMwraFlxblgNEHhnUqYDMyYUTURMuoRCbl6
-ERT5leCjLjvZH6KFhtzfXDc0yl+E5DBFNEYXIsXkeIIyHm6EXXH1XqTcT7Z5KlfWmGf8NE0DBc523DzG
-Zk1e0v6d+ePt7FlvgpeBWtbRZVGjVjTOMWRRY+93jWoupkasvUT7XcwM0y7zegQV7MzZQ+uVVFBjl+t2
-ELeIeGTR05ivJnr6mv0/RG81ba7EbJx9GubOh2mapqFa02zXyTWt2a7UtB1dl38X2KZcT9k1bVdPxR31
-HmkAtWQU/n5QfZihH2y87ET73/pBu5ndq9VcXD+VUxmAqt+wx9Ajfrn3OwTaXpPS5xT6WnilbwFZiIqO
-x1Kftd7oUrvNowxw8bvp9125OIfnkoWoyaWZt219KvWNi+fg4ClRnhuzrqmIt3a3C7Ugf4xyhapRGaDi
-Hh4iR39UmS8wAaTFgyONVyRJY5Cbk9YDcD8WWNlKKr4ARgyf4P1q1zYn5ReAkW8cmD/a1qnRxp9s+fn3
-D9t2Tg27ib/5P4Wp212aul00uZ3ckq9ocNq5IV/RgA8c99TQy89C+rS+nJ/0ybbKnZ/8B1BLBwh9Ls5h
-zgMAACwRAABQSwECFAAUAAgICAAAACEAfS7OYc4DAAAsEQAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
-bnRQSwUGAAAAAAEAAQA2AAAABAQAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag-0be6e93c-f510-3cab-80ed-6a0aae2c7189--
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.uml-ec315bcf-a064-3dbc-a530-859b2ef6ee17
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/imported/model.uml
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStVl1T4kAQfPdXUHk3myCnHAVaiOgp
-x6l8FOZeqDWMyRZJNmY3Bv31t4mQbDQLnHdPqVp6enpmeqZon618r/YCESM06Gimbmg1CGy6IIHT0aaT
-y8OmdnZ60I59rzWkC/BqK5+0cnxdNzXx4gWsJd47mst52EKI2S74WKe+o9PIQSwEGz0Mr5EEF4Q5PEkS
-HWyPhAwyvPitjhq6oRtoOvypZSnJoqPNGyfP35aW4fSh9/3t5iq5m1+Me4lWC7APHc1P9WmnB7VaO8T2
-Ejuw6HvgQ8AzBv4aClBaSM/DjEm0Y6u76l8bbjVthhZtsdMveSIQnYOLXwiNROgi7lrNz6GpCCGDJgEs
-NugPIsYccxhi2yUBSFoUhGstcpCxziLyROCIcUgkzcvGvZJklKGLcEHAIxwwwkskTxeXzaWSZJJHiNYw
-Gke2eJyDdz/oVsRwHDnAU8Ds5qECUEjJxBDHgahQ4twO6DYlGTw17ouYtcA/rGbG9DMeSQWjomLplcWP
-wtocVlWzkoakqEIeklFKtzexon8SsVkQt9H74NduQyW7yRa8DSHC5elOYd6nykx5wIxwl8Z8Q7rJ/U47
-AhvCMq3FjEP1KuUBKe16bsI9xAmwlwb/OnmsmHOWs40+7PQee34b4ucYcu2FytkNcdVLVg5L7S3ul1h8
-O+uICOfnx11j+9Lf4UhwcdnFjf5qVOHKddI8QOR7r0B1lr7cjnHW5366JFIvFMuysVwRY+w7qX1USAIU
-XCUBxl7UH++63zOb6jFnaFPbYeigR56s/Qwt9uSzp4P6clkR/49DlIpUJCi1z/xS+9iPye9ke/vq2o4z
-o1iVqjOTb4DQIL4u3bKp+QVULdvr3fUx+5tlU3gF7c5kHb4Nd2cy80yKtqLSFc87899vX5wcndvW0aNI
-fzWgbrc55xa7r759mW/aKP/zd3rwB1BLBwgER/l6wAIAADAKAABQSwECFAAUAAgICAAAACEABEf5esAC
-AAAwCgAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAA9gIAAAAA
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.uml-ec315bcf-a064-3dbc-a530-859b2ef6ee17--
-------=_contents/hu.bme.mit.examples.uml.trace.model/.project-84027679-44c1-3f8c-a7df-8aaec760074a
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.project
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9ks1KAzEUhdf2Kcrse6O7LtIpqLhT
-hNYHSJPrNCV/5Kf08XtnJi1ORRAEd+fcnJMPcsPXJ2vmR4xJe7dqHuC+maOTXmnXrZqP7cti2azbGQ/R
-H1DmZ0wy6pAp3M7uuBMW232BnUWwOgOehA0GExRrIEchaewVGs6GJDWktxZdbjm7KBrWy1Ov2VezK9qo
-TUBJpronqgmn+kHl+9gBSqNDQjioDNJHEuIohjzGK5wKInalp6bRsonn7JbwG2RQCK/C6U9M+fHfiBu5
-Ryv+zKuD+sSEyiXiGB31N/C7KZ12b8Nhzx1CP+Qn23C3lYsk3HXrk/91BlBLBwjX3h039QAAAJwCAABQ
-SwECFAAUAAgICAAAACEA194dN/UAAACcAgAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAA
-AAEAAQA2AAAAKwEAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/.project-84027679-44c1-3f8c-a7df-8aaec760074a--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java-5bc0cdd9-7694-356a-ac6f-56c80d2bd0f9
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9VtGO2joQfecrfJ82uxLJB8CirVZb
-aV92q5Yr7atxJuA2iSPblKKKf+/YHoMJpAVp2zxAYo/HZ86cGbu4uxuxu2LUcfGNL4H939RzzQXkayvr
-yWgkm05pexi+O4wpvcxB1LIzkENT5UI1jWrzVllZbfMPJe8s6Mll1i/uTzrzy+zRqI5bfOTCKr19xqHh
-5SCUhvzpdfEVhEWzwsfNpv+Nx2wBS9mO1wb0uFSCjcczNzVfAZsuZrQJo12mxWLGKqWZxelGlVDnzvjZ
-sk6r77IEw3jLOC2aCrSYCQ3cwtvb27Tw36wBu1KldwNcrJiouTFMVT2nHhy05Qm0BwNJpuLLp5BCb7CE
-FjRuWobkrhe1FLRNND9mj8EPi1sZdkoq+zli+HjG3BOoEQgcyoCWkXryaDBIazJ9GliYTLH7kcL/I70W
-U4dbGsstRtMLOyChD0xwD/Kjz4FPjmzRQysgEh6TVYWQ/2oQIRHnU5DdEtPukRXL0ojY/T1r13Wd2rjn
-2KZPSg7PL1/mH14enyb7VbtR+O0z9BnsWreGbVaoTnAClyZywvCVdx1i54sa9vq3227PovKVdSl5c+fc
-FTE00Lp8qpZpAhCKxuo1xHqR6RYOC0iCSGm/MVGCWPgebJrmsKxXXpckMSB6J0YGJPHw+h20xsaRCmSh
-VA0uBkPa+Kj0HF1nrxSL/+vrhQJFpaSq6CuGgnL89kXRcxQZxHiocQ74yrI4T8ByeHS9JrvNl2CfCAjq
-uwft3P7ksuK1oflTqbr+YzbSYuu0K24ZeoSlL2+rPPW/7bvm37SpWIpfPNAp1fosEBAG2f0+7BY2Qyuy
-PuvHkokPSSeeV4Ib8N6eQo1l6ccZAfX4D9yla8hxdjs5WrO7HloJFV/X9hERRuFcCojM/4hl99sTYN/x
-qWqp43CNaiWtvI9GOq55w4LjtIWhTD2GQ3OIVZmeRxegu6ap7JXhiYgUxpsXoUwzQJgSwealCi+Hiqdl
-+1IdpN1LPI0NE3FozeFucvPzoZbtt8Pd5ki0U2hmfoDRyLTAkd3NVYcOiW/o8HFnLDMq9JWNu+a0eEcz
-ssaOv2zxDukLy0yiT2nx7MHNqnXtsko23Fu5g8OdQ3h2yHAUbSR6F9yVPsc3uyJ3yMV2w7fXHUtudcLp
-QRNHt8OUwctuJ8c6OdsCTkXieBtq18MScCHEhDgi3juT70ToFXT1G9QfmNqxojh/Gxz9AlBLBwhhmTXQ
-kgMAAJoNAABQSwECFAAUAAgICAAAACEAYZk10JIDAACaDQAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
-bnRQSwUGAAAAAAEAAQA2AAAAyAMAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java-5bc0cdd9-7694-356a-ac6f-56c80d2bd0f9--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java-387ffb59-9c31-32f7-bb0c-a058ac61610c
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS1U8tu2zAQvOsrtj7JQkR9gJMgReAC
-BhrHiF0gt4KRVjJbihT4SJ0W/veu9bCk2G2AAOFBorizw53ZVRJFAURJUPH0Jy8QvpVyY3iKzDshZ0Eg
-ykob1x93m1WD7xE/+DOvk9gdr/pjbQqGqRSVRYZlTnttkM1P0s/jDFrtDV370G7eStiVoini8e7ryugU
-rdWGkpJaJmy2wkIquaWnVo4LZWGLskIDJbqtziw4DRaN4FL8RuAqgwz7b2KFTKe+ROXsgfDyUxzDExZC
-xZ5gMQUhjq+PIVTZSeCmQIWGO8wa5/2TFGlbVWfvsHzAnSMeC6PDP0EAtGphhxXBqiXSyjrjU0cgEkMS
-HVdO0H3gttjKZV3SPwUMwqcimuBQSH2S1O9W0Dkp4ZTqhnZZT4WEYTcL1ONCUOUvbLFcbz4vb+fT6ewI
-fjV3DDsQw9uDc2GL3dfP19Y01NTlnEyZRJO6sZNdKSeQC4mNw1aQc7VH3WXd1H3hBzdfFmUlIW/2H2ng
-zf0zGiMybOw02mFKGKAf63LtjFDFBXSlsba2ayjQtQ5yd1Ay8lrkEJphFK6uQHkph6BjU9gp12yEGlGx
-yruQuvx9/riZL9eL++UFKPz1PxfD6ZuE1N2H9zLug57XeaPG9N2gBHtIknNTGvwFUEsHCN6N9FHqAQAA
-FQUAAFBLAQIUABQACAgIAAAAIQDejfRR6gEAABUFAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBL
-BQYAAAAAAQABADYAAAAgAgAAAAA=
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java-387ffb59-9c31-32f7-bb0c-a058ac61610c--
-------=_contents/hu.bme.mit.examples.uml.trace.model/build.properties-a129b7fc-6512-3704-9218-7017c70001a0
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/build.properties
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnRT5uJKyszTy8xLzilNSS1WsFXQ04nh
-UkAFufkpqTn6mOK+riGOup5+blikCnJK04HmVuTm4JQrKMovSC0qyUwt5spKLCrWS87PLcjMSdXLL0pJ
-LQI5hKs4v7QoOVVPD8gpLkrW58ovLSkoLQHzgY7W5wIAUEsHCARYlZVzAAAAvQAAAFBLAQIUABQACAgI
-AAAAIQAEWJWVcwAAAL0AAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAACp
-AAAAAAA=
-------=_contents/hu.bme.mit.examples.uml.trace.model/build.properties-a129b7fc-6512-3704-9218-7017c70001a0--
-------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs-3a9b6df1-73f6-3978-9387-39a938414626
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVjrEKAjEQRHs/ZuEauzR2WvkL8TJ3
-rCSbMJsT/HsjXO/ZDMMwDx7mrM0hjVhA2AyXF+haLUynylWwP56py1yJEaVpBkdJWGGiltVwc17eHd8x
-wOIjIx3ke+SKfs+xL5UlTHL+CZaWNQ7ZA+fGOlyKRHewXxOs66JgAFl5EIZt5U/U68Zd8ANQSwcIBKDI
-j4cAAABlAQAAUEsBAhQAFAAICAgAAAAhAASgyI+HAAAAZQEAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
-ZW50UEsFBgAAAAABAAEANgAAAL0AAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.jdt.core.prefs-3a9b6df1-73f6-3978-9387-39a938414626--
-------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.xml-20ce14f1-104e-3a9b-b492-7441de7a441f
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/plugin.xml
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkUtPAyEUhffzK5A9YOPGGOjsmrho
-YkxdG2SuU1Je4WHafy+M09FJjIlsuBfOPZwv8P5sDfqAmLR3Am/oLUbglB+0GwV+OezIPe63He9BGR0S
-fEvvqrTedPyGkI6QVgVTRu1qhRDicM7gmhQFr10W2MeRzi4U7HutfQQ6goMoMwyvQaqTHAFv23hzmA/m
-9muVqAU+5hweGDsW+maBWp1psYbmKBWwRrCaUEamVFGsOTQBvRZP83MrcU2z9wMYgW3bWPUlk2/LOR1h
-NuXjbOH7H+8iq7wxQfyJ2/pVnHwJIHANMWX4m6tkbRa4Z0i+RAU7qbKPl0cbfg/O2fXPPgFQSwcIBeBO
-Ff8AAAAJAgAAUEsBAhQAFAAICAgAAAAhAAXgThX/AAAACQIAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
-ZW50UEsFBgAAAAABAAEANgAAADUBAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.xml-20ce14f1-104e-3a9b-b492-7441de7a441f--
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.di-ec285961-2047-363e-bd72-8abcbd3153dc
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/alternative/model.di
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStUtFKwzAUfRf8hxCfbboVUUrrNkSx
-uIFYQd8ka+7aQJuUJFu3v/e2W+tGX328555z7z0niWb7qiQ7MFZqFdOJ51MCKtNCqjymi/QpSejs8foq
-EjJMuS2+pBK6sSuVG7KvZDgop60SZykbIh7Twrk6ZKxpGk9XuadNzr5XyUCxl5Qm6BhT358gbZlmBVT8
-VirruMqgV4lLEWSlrC10yprXB7O1zPfuPZ9ZvFRIincTEtU8h6W0rquw5jsuS74u4R0bJxBhqDYtkAhQ
-Tm4kGFIY2MS00gJKT2nHHRq9+dG+VnoR3D3DW/WxhCB4fdi/Lyjrx7Px/Ihd3BC1563asSTbGoP7Uigh
-c12OjM2HNps3x7jR0jwrZCmQjDn3q07dPw89h2C+oTvUEFN8t0++ftGlAEMH5hn3DPu/FI5JjFaMoIid
-e4jYYL39cmz85xD+BVBLBwjjV3jZTwEAALICAABQSwECFAAUAAgICAAAACEA41d42U8BAACyAgAACAAA
-AAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAhQEAAAAA
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.di-ec285961-2047-363e-bd72-8abcbd3153dc--
-------=_contents/hu.bme.mit.examples.uml.trace.model/.classpath-d7a144e2-226e-337c-a927-a5d647475e0a
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.classpath
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkMFqAjEQhs/1KZbcna2X4mFXKWUL
-FdSiW68lJsM6bTqJk0Tq2+tCpUVoobf5h28+fqaafn644oASyXOtRnCrCmTjLXFXq5f2cThW08mgMk7H
-GHTaTQY33wE5ybF4J7a1Mp5V0S9r5aUDNI5CRHizCZzObHZnI8xWzevDctHePy2aVXnNEScU1g4sbnMH
-mb4uUWCdNFstdjNvjwHLmT7odTMcwZ0q/9soWATjBUFwn0nQPrvcEcc/TFHMxdSPv4M+p5DThd0S92xV
-/vjeCVBLBwhJSvu2zgAAAHEBAABQSwECFAAUAAgICAAAACEASUr7ts4AAABxAQAACAAAAAAAAAAAAAAA
-AAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAABAEAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/.classpath-d7a144e2-226e-337c-a927-a5d647475e0a--
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.uml-fb2a3799-6355-3ad5-8087-065ad89f0fc8
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/alternative/model.uml
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTFV1tP4kAYfd9k/0PTfZYWwZUQWVMV
-tCsarrr7RIb2o0yYTpuZKVV+/Q7DtdhiI+I+9vKd813Odzq9uHzxiTYFxnFAa3qxYOoaUCdwMfVqer/X
-OKnol7++f7uIfFJ9CFwg2ouPq+uAU7NYNM/Noi5vE8qr8mFNHwsRVg0jjuNC4HuFgHkGD8Ex/jzYxpsA
-ngyIS+r9U9MsyvebXWcMPjrBlAtEHVhFyWwSUeAQHHJQofLZqVEumAXT6D80dZUvdmv6IHhthBWrdFaH
-e7/ThFLprvLSsnSNIh9quipOl6Vq2kWInAnywPbDgIkNQOf5uV22SpUdABUjo7B6HdzWIlrFiddQYq+b
-p2tjBqOaHiIx9tE8e5nioGlfdayOXe/Or1oM+1jgKfRkKC8QPGSIvRYkxI+BqRuLBI1Ehomk3ToBH6jY
-ob8miPOtZvDR+aBtlX6mN6MXhIuAVW1BTMG1hGB4GAnYwNw4T+HEKp2nw4ggbLEg1LUp5niICRavsvZo
-SLCzQpbYJIiBPSES7basiQUwRGwqwAO2lXyjCfVyCut0DiJVvGyTQo/CcC96n5J5w8F9RCKS17s07Xw0
-LoxQRMQeoq5sHvUS8KOe9baKNaZEnS7gOK5SLBUvWATbpMY262pURnJW702wZ5ZJP3OCTiAVRqWclvpZ
-VDVo90/stAEgz2PgIaG8QcVyWby8z3ng4OV9SXk2c/YU/gFFqCpyjuoARSgaLwdN6hTWa7va0Y8sbtwy
-7/uZi9uNhsnF9YDOa8Iz1fwtmHbrqp4Cs3w/2yGM9wTVKPZ7dqageDTMYQnz8nf6kPDFw3x0uYnGIYK7
-rZxAfHwLuq0MGmZOmg9YkITnKXv8xRb0WAErxQ+WimFAkOxN0oAeur9nPM2AEkbzWBnfpAzpkLmrXI9v
-NIrm/xrN7GbC/mYaTQNTRPJZzewmLgd7rSbD0961mjsndLO/XaN5ikc5f9gT3E0T7CeLQNKcecdbfnsy
-uQu+Zvk/RZBZO7+YdmfbJow8+NbGKxKbl+oZm8+XIlIxPvhDYHW6DnvjC1qWtyWULRF2+FMMZs2fNMKs
-48AXGKGEzONQhxqhpInzG6Hs5ecpLuuYu5jFdfJsfIDmMg7Eu2fwpOJUUIriMg702YpLB9r6h0sqLuvP
-8QvO+BLy+IpTNJ+kuAtj/esvr/4BUEsHCJLb/GtzAwAAbREAAFBLAQIUABQACAgIAAAAIQCS2/xrcwMA
-AG0RAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAACpAwAAAAA=
-------=_contents/hu.bme.mit.examples.uml.instances/alternative/model.uml-fb2a3799-6355-3ad5-8087-065ad89f0fc8--
-------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag-26fb7afb-f8c0-368a-9c3e-8e5fd8ab0707
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTVmuly2kgQgP/nKVTK/tititGBxFUm
-KYyxY2Ln4HDibG2lZGkQY+vAo5ExeaV9hP2XJ9vWCGFAhznEwrpcpmjN9DU93/SofPzuyba4R0Q87Dp1
-XiqIPIcc3TWwY9b5fu/sqMK/e/vq2HGpRmFI7RRrJtFs7snGtdk0OZgGihyvBvI6P6R0VBOE8XhccG2z
-4BJT+HZ1MRviLQ4ZF9kIWRQlGHbZ1YfI1o6w41HN0VE0C+kuQQvzkG7hkYfYZGQPAgWy0AqGRXMir1On
-mTCN+A7FNhIg9oIsRFN4FiE26vwPfNq58Zoj2kIf7OvP5/57z+7dmjxHJyNwiBnsua7l8ZyNNM8nyEYO
-7TuY1vnP+AlZ/NtXHHesD7FlEOQwveHUWVI/ugZaMNjXG6kGJcgTU7mu0uvTVqpSJVAqbKT14SJVq/rs
-Kqj16MRCXpLSU6KNEekGz5d1d2O6hRUUdl1CoYITNeKNNJ5hiyKSpnOSodPSJq5Pmy7UM9GwQ5O0d4KP
-OaVEu2vcNB/aoLTdrT64Q7U9/gRpfdQsH+ZBoVZLlbI6WzEhWrLNVrCdtYLydivYzn0F2ztYwfZOVrCb
-sYJKMWP9MvIy1EYoHgEAI55nbuA64LblEtjgsiSWVTmUfdRs0Hnp69jQuHOiOUFFBA/eI2wOgVuSwnMW
-dtB0cgVmq6IycxdZjHFz/jE611pNS/OAg0OCBnXet60jSJiOCuzpa0HoBd9a4eSZslWye+L6juEtRxyv
-A+4JDqMyz02gciGEMTboEKIpVsCnaWilUmh5MeeZO4blfM74x8r3/n1z5CdvmR56omuk2UCeTiASdkz9
-+tuAEn1Exq9/VkH8ieZh/TTILvu+tLOZmzjNzelBHvj4vMFnC+vhmoOtOk+JjzaizAquTVJde07Jpq5l
-j96o5JjP3bjPUHJVkZWcJG9fW73meXCgHnptMTcPs7Z6zfedq9QMHmZtsXRm15airF1bS4k5Mx++iM2H
-T8tHUrytRA0nUuLFIf/8cF65NTjXE5R7rk90mNsdwoGu+/Q56QaiGrYS9HdpcEr33PDzShu1HEomy7a6
-cVv3CBJlQ9DWxenspJ3rz2cLOh/f+h3TmUlQJTWPm3bSZ6Z33kjVul0nzXQnJEx3LUuDu5CxWMObNGbM
-BI6Z2KoxYzonaTq3aXpBM21lJXuLppfp3nmyaSv/ZNPW6sles0Nl7ElIyn471JGl0YFL7JowsnwTO4JL
-zNn7AWhf5eCPwIgi9K8uZ31sqGQr4rOExJeQNbBBEpY6WElKpH9GbYZHcPym0LnxUm5k6Un7rOn3molS
-G/tovmEmO9MyzIViuOtdX6TuvmKw+2bnRvqppRET0fQBG0Dhrn/3JYPr0hyBV1nzS1ePnZKBiYRtAKt+
-JBXZqh8plVwId3f9oZ8VjJxDMGAiOxhlA36AHw7SqRsHa1A2CfYIOM9eV3ZgGg6goJEFOERkEV60fQaE
-STSbsFO3QdeLmOqgAYJk6SgXVAmeP0JkkVq3yDFGLqx2YiI6COzBZeFkNmo5I/GjggsH1vk/YfnfcEfl
-N1yxBJ9y9a/fpiJZncqUciArV6YyGLMoLEcymPy8bowJDUeHXjLJ6QsDconpJBwx5/Cjbv80mz8D6lUk
-tXGCvuu3tMFzwcPfxUJVURd+34gFqbj080fEXwa5NXH39Ye5Ku5S3/3uAHdffwx3jTswkUaI8DVNTrD7
-Zt/vGnZgIjkUaXpDE/OFHRTNPmAHZvcOu+w3h0K4WfIhGYSbRTKVwYmhS5ThbwUIJYvlSKiKTLYNG25E
-7xDZcCPSXbMBTKSwQRbzZMP32/Gu2QAm/lM2QNHsgw1g9tDZEO6FfNgA4b7EBiUig1SNyKBMuSBVt+KC
-NlIOkQvaSN01F8BEChcq0ytSxnZaK5jbL1nv8XIhA5hICab8YiwboQHqZh9oALOHjgbsDBHBFBndHPsH
-iDv7JiTBjUdm/QLce4oquwqBTK1EspIUkEMRQ5mkzkvkUiiRt2PJrZL+ZnmPLNEH6e9gc2IJmEi7f4il
-fGECphJ2QK4wARMJxcY6pupuaAKVsw+agNn/DU16OXYcEHcmTeRKRBO1GNEkkJVLkazM+pCgNQlkRXFe
-Ik8lcZocz/7vLXpx/PbVv1BLBwipBIKFPgYAABsoAABQSwECFAAUAAgICAAAACEAqQSChT4GAAAbKAAA
-CAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAdAYAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace2.ecorediag-26fb7afb-f8c0-368a-9c3e-8e5fd8ab0707--
-------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.properties-78d0b287-4b2f-3637-8d82-8cec05dc813c
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/plugin.properties
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnRT5uIqyClNz8zzS8xNVbBVCM3N0S0p
-SkxOVfDNT0nN4Sooyi/LTEktgkqXl5frpVYk5hbkpOrlF6VzAQBQSwcIu/2CdDwAAAA/AAAAUEsBAhQA
-FAAICAgAAAAhALv9gnQ8AAAAPwAAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250ZW50UEsFBgAAAAABAAEA
-NgAAAHIAAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.trace.model/plugin.properties-78d0b287-4b2f-3637-8d82-8cec05dc813c--
-------=_contents/hu.bme.mit.examples.uml.incquery/.classpath-799190c4-0db0-33d4-99e0-e9f01c90dcb9
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.incquery/.classpath
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVkMFqAjEQhs/1KZbcd1IvpYddpZQV
-KmiLbr2WmAwxNp3ESSL17atQqfQg7W1m+P6P4W/Gnx++2iMnF6gVQ7gVFZIOxpFtxWs/qe/FeDRotFcp
-RZU3o8HNz4KU+VC9OzKt0IFEdTq2IrAF1N7FhLA1GbwqpDdHI0wX3dvj87x/eJp3C/mbc5SRSXkwuC4W
-ivtOIsMyKzKKzWrWHyLKqdqrZVcP4U7I/34UDYIOjMC4K47RvPhiHaUrpsT6bDqO8s9kbZGu0aHkWPI5
-sHZ0Yht5UfYXUEsHCCquFULTAAAAoAEAAFBLAQIUABQACAgIAAAAIQAqrhVC0wAAAKABAAAIAAAAAAAA
-AAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAAAJAQAAAAA=
-------=_contents/hu.bme.mit.examples.uml.incquery/.classpath-799190c4-0db0-33d4-99e0-e9f01c90dcb9--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java-60b95af9-77f4-3997-a644-72a540d0d566
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTNWMtu2zgU3fsrbjOLtMFYajuzmrpG
-jFSZGmjdQlaA2Rm0dG1rIlEGSQMtivx7+dAreliOYzvupgpJk+eeQx5eXvvqqgdXdm9N/HuyRLiLI48R
-Hz/0emG8TpiAhC0t9KNwzdHCeCG/E4aWcxMRzj90DPpuZu0a5uICGVK9qq0BweBVvw9zXIa0v+HI+kHi
-Q78/VF3eCmEwH6ZzD+z5EBYJAyGb4yTAyFKDxgL8hAoSUg7E95HzhPFiHAoCyfx/9AUHkQDDNUOOVOil
-N5FeB2AQhUMk/gp8FeyfA1v+XelZIBEbhpAsoGMk0k1c7SA0MD8LiAQkfq4xHzCwUxiaCaRBjYdrjoVe
-VvZxS3yRsJ96gKYD7kMafLxIBb7QHUukyIjAwGi/mUehDyEVyBZyinzSlGLAH0IC4JDpCb96MgDQUql/
-RpNsC1ESo5V1tOpY6q4HZzrLMHWLrf+fChbSJeBk9NWBj3CRob2Qu6cDFl/r8NzxSfBNZ3IlhXAlxPof
-215trLmkJg6FtYkjSyjQ9jvr7c7AT8bsdPbddW7H/ynwEqrYQi+Xv4hQJFTuHy6IPMTqLIgC/zEB1zbq
-eDL1RpMbtS/ykyG9J7IqI8eqLaSheP2mOaySQ0AY5MZx+es6Cul9ZXL96UQYSwdRM8MA46FuhLR1YMuW
-h0tjD4dh5NHpb4SxZWgDHX8sUZRneP2mg3zpF+C5oxtn5nxxvjoTT5L+tpnNzCXLTCqOpI1Pkw3ztYtr
-ji6lF6eXwXE2DlwnLJALdMQym02/3bl6Iz09Jo8wSeYZxuSN3H8dpdO7J8c0pitkoVwT2hWDKOTihUMc
-Tz477thzPhUCvn9GsO1SnlewubJ/NQcrk485MmXNXLCNLwMnUcYAzxz7stm3Dmpb+8Z664y8O9eZ3Xy7
-007zt4yzGqiLMhyZ8FVSPC2vDqHu32XHa7Xtw0TONLpt4Froz5d/bORl6B1WbbJ1qDl8fa9so1C1Fdt/
-K5XqMjE+oUnNLOM0bFZwVgDsQmcBv3QLqtFPviSLt02V/Vm2wFFFMP5ldnZqZS8mQgnAriKYnxxRhGyB
-54igLoJuJfI7pXQu6pfqS4hj8Lfi2VWrSoBHFK220gnVKx2oepZwLurtcdIqAZ5Cvd3O3sIUNOQ3EeAz
-mbKg6cjem3n6klV/Dsv+vut3PFnTOo1ip9LUREhHMJ9wEVIJJJK0ysSurdClIiiVutKpdZ3JfLeVvGq9
-W8tetdHl0le5s7X8lSKzS9D2KQ8UFa0vGTGmcvWIXTNF9dGfUnmUl/8OmnYG3XSmt1QBWoc/oRLQzHWJ
-b33wTapZLQzklRmrLQndR5POGkK2UQ9PfAcLhf21lRVaGakmhs8gZsvr9eyIyV+w7cRULoxnELNzNeP8
-eGoocLQz1pYpHYS6jtrIOVO3w2ZrS1Meer0HsO2Kb/Z+A1BLBwgW/BbGNAQAAEkbAABQSwECFAAUAAgI
-CAAAACEAFvwWxjQEAABJGwAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAA
-agQAAAAA
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTracePackage.java-60b95af9-77f4-3997-a644-72a540d0d566--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java-fa0533b3-9625-3be8-ac36-019620c99bad
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9VU1v2zAMvftXsLnUThF5uzZt0CD1
-gABbWnTZeVBkxtEmf0CW2w5D//tk2Y7lj6ynRhcrFCm+Rz4x/nTqwNR3Msp+0wjhRyy2kjIkPM7E3HH0
-J5WqNU9bWyojgkzwLEeC8V7vU4kkWAma5/N3nB52v5Cp97weK1DvpSyhkuALZSqVf9Yd3OMBmSginpCg
-/PFo9jrCN5WAm4vZDHaobbMiRzkLUwaz2aI8WiZQpsIYE0UVTxNI96AOCHEaooCb3aLGcOPvFuR4GSbh
-4Kq7CBOUVGFYVb/YCc6AlaU71toiBPiq9DU52CxbMIMY+OuAXoZSuaawkqiz5QZuiHtaCAX72rlLijQh
-JythHQ+5VYc2P2PxzbfmmZeZ2AA0T7hyvRp7udSRSbP6IZpO33QLbs/kNUIiT5pNrm8l68337XKzCkiE
-qqmpOzkolV37/qEguxhJzBUpYkFUeZX/mXyaeHPooOF7cEcQXNxCUgjh9bCXS6IqZDICe95xfXOGO0YV
-O4AbvDLMjPiw2fUTWbpuiYo0ctuI+UiCGluCL2MSdOuYN+eUtKh+HolubcKweRi1ws4gqVHEVl3yIkN5
-msMHALt7eEYpeYg2zHrwATM1c6thCWg+Hbgv3HS7OilVajZ8z1Gu712v33JG83Z2N2rfPi1Xwc/ga/At
-2Gyvm/5WqY1jUD171+uqr54P1wP1qoNMX4xA1kJgRMVSRkV5w1GU7mSr217NscsJXEFLYENj1C25gskl
-8BySVAGFZyp4WPkbbpOBMs/Sq7o7dlFG62RV3T4w01jZwbemSn0fu9DNJLBczijO3qupFQO6TT1Th3ON
-2e35eOUQPfp/CIsQM4nMonHy1d13Pcf/cSy+/+HZf0/YDNMjxTfw/ZHJ4/wDUEsHCJ4oKXWbAgAAVgkA
-AFBLAQIUABQACAgIAAAAIQCeKCl1mwIAAFYJAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYA
-AAAAAQABADYAAADRAgAAAAA=
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/UmlTraceFactoryImpl.java-fa0533b3-9625-3be8-ac36-019620c99bad--
-------=_contents/hu.bme.mit.examples.uml.instances/imported/My.umltrace-96c72c32-907f-38a4-a3ad-2ef79be2ab9f
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/imported/My.umltrace
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnQ1zDEPgjAUBOCdX0HqTKuLGkIhxoBx
-cMM4mlpfKLGvIH2I+usFEpdbvrtLsjfa8AWdrxsn2YovWQhON/faVZKdyyLasiwNkh4tdUpDXE6ZW0Bw
-FI5b5+O/SWaI2lgI0/MbAsea+Gh8RjFfk+oqIMk4F4AtfSJtlffgp97i+tzhdzg8Ljnsj2qtN8qcsBiY
-SIMfUEsHCFRKgGGRAAAApwAAAFBLAQIUABQACAgIAAAAIQBUSoBhkQAAAKcAAAAIAAAAAAAAAAAAAAAA
-AAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAADHAAAAAAA=
-------=_contents/hu.bme.mit.examples.uml.instances/imported/My.umltrace-96c72c32-907f-38a4-a3ad-2ef79be2ab9f--
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java-38a7b01a-d9da-3e54-b0cb-95e0fcb0f384
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStU0tOwzAQ3ecUw6pQKfEBCBEIFamb
-CkE5gONMUoNjR7YDVIi7M3ESWqUqCFRvbM28+bw3YzafRzBnUcPFC68Qnmq1tlzgZRTJujHWg7FVgkLJ
-xmGCdUlvYzFZ3HHhjd0SjoUUkJ7FMeRYSR23Dm1cGAFxnHWu9QYhzbMhJGV5BqWx4MlcmwJV0oGWHhpr
-XmWBDjgIi9yTG/3GFAGNXGxAGx3z3Hlq0YNQ3Dkw5SRRaAR1cdDGtcMdwWR83PfMA6BCjZbqFr0mba6k
-AKk92pKQ37EDEcB3T3UcjGLARwR0giDd6Zk7qSuF3mjK5DzXlGjouezDkhF9VMI99yGx3rnfe7CwcB+0
-vFw9rm9Wtwu42klBk1bJBLnsbFJLf35BM57QekDfWt3NSeMbmPwZaRxEqp/ILMU6C7lgobBG7VNGltlp
-eNpQ+7+lj8gUQoaIYff2TT9p0A1y/D2ubbo/gwXkW3JId9oRD9T/VvGXxRjWHyr0E1Mg/QmMTTYj+gJQ
-SwcIg8yd0X0BAAA0BAAAUEsBAhQAFAAICAgAAAAhAIPMndF9AQAANAQAAAgAAAAAAAAAAAAAAAAAAAAA
-AC5jb250ZW50UEsFBgAAAAABAAEANgAAALMBAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/UmlTraceFactory.java-38a7b01a-d9da-3e54-b0cb-95e0fcb0f384--
-------=_contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs-9281ac49-5785-3aba-a670-81f326441ecf
-Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs
-
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSVjrEKAjEQRHs/ZuEauzR2WvkL8TJ3
-rCSbMJsT/HsjXO/ZDMMwDx7mrM0hjVhA2AyXF+haLUynylWwP56py1yJEaVpBkdJWGGiltVwc17eHd8x
-wOIjIx3ke+SKfs+xL5UlTHL+CZaWNQ7ZA+fGOlyKRHewXxOs66JgAFl5EIZt5U/U68Zd8ANQSwcIBKDI
-j4cAAABlAQAAUEsBAhQAFAAICAgAAAAhAASgyI+HAAAAZQEAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
-ZW50UEsFBgAAAAABAAEANgAAAL0AAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.jdt.core.prefs-9281ac49-5785-3aba-a670-81f326441ecf--
 ------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/TraceElementImpl.java-200c5277-efc1-3b45-80f3-21615a7ff238
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/impl/TraceElementImpl.java
@@ -714,6 +421,22 @@ OHs5mtvx1R5fjhWZKBfnur8qoGzBaOtX2iWiGiibnkrvQLsqaJAou82GlC9Hu+WVuTqnoY5RJXpcRJfU
 DDpqfkSNF/QOb/0vUEsHCBvFtRSKAQAAHAwAAFBLAQIUABQACAgIAAAAIQAbxbUUigEAABwMAAAIAAAA
 AAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAADAAQAAAAA=
 ------=_contents/hu.bme.mit.examples.uml.incquery.validation/plugin.xml-c8ae8990-33f4-3d8b-bad6-9eb1a8838747--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java-5c66d56f-fed5-3211-b96b-484fbf7a9fbc
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS1k99u2jAUxu/zFGd3gBbnAWCoKXgq
+UiATGIleRSYcqLXEjmyn7TT13eeEBEVlZXTrfBPb58/n3xc7GAw8GARewdPv/ICwzjOmeYqktCIbep7I
+C6UtKH0gmGaiMEgw35NU5bmSdRJZL2dvJ2KqNBKNRpXadV02k6sLXFZ2qvrKU6v0j5nb+1OD51yQzTzq
+6AU1KYw++T5s8SCkXxrU/k6l4PvjKsQeEEbbcVsDjdwo2I6BG6NSwS3u4EnYB7Aut/GMnNqi3J01vTH4
+ylXSrlqhiqdOPaBEXWkcf0m5zUQKaea04XVNxwrAZ+uUDfwu9tMDN2r2agxgotEpGOAShDSWSweq9jVP
+azrsjw1IW/OmZ53wOfsx2IWqd4L628BdwOr1m8NXw5QF6l5/WG+8eH8B9T9hbuJH1FrssIt2ukZpfbh2
+2XPPBUotunSdi1qdt8wsfAGJT2f21L5UxcNT7TGfHNBOcc/ddMUfMS6sUNL0+qQoba/TnsTf2CxeJHTD
+6GJKp8mcsjCZhiz8DLdKZcglYcs1vSQQKb77CIF/RFhN7ug8TKJ4Elbrd7S/CmC9ogldTOKKIWRsObtd
+M5qs2H1Er7fqKpD3KH0AVEQ3s0kYJXfhYhrR5QUYW2rZCJ0e3gsEwYVH6/0CUEsHCN9eHT3nAQAAUAYA
+AFBLAQIUABQACAgIAAAAIQDfXh095wEAAFAGAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYA
+AAAAAQABADYAAAAdAgAAAAA=
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceFactoryImpl.java-5c66d56f-fed5-3211-b96b-484fbf7a9fbc--
 ------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/TraceElement.java-19913726-4ce5-31a5-a23e-54ce3dc4dd7c
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/TraceElement.java
@@ -745,19 +468,15 @@ wOIjIx3ke+SKfs+xL5UlTHL+CZaWNQ7ZA+fGOlyKRHewXxOs66JgAFl5EIZt5U/U68Zd8ANQSwcIBKDI
 j4cAAABlAQAAUEsBAhQAFAAICAgAAAAhAASgyI+HAAAAZQEAAAgAAAAAAAAAAAAAAAAAAAAAAC5jb250
 ZW50UEsFBgAAAAABAAEANgAAAL0AAAAAAA==
 ------=_contents/hu.bme.mit.examples.uml.incquery/.settings/org.eclipse.jdt.core.prefs-2ba23f09-8cfa-3dbf-a007-254cd776aca0--
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.di-516882d5-ae61-3eb8-b4c0-65727c3b7f47
+------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs-d6963d54-9a6b-3d05-b19a-7d398e48ea88
 Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/imported/model.di
+Entry-Name: contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs
 
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnSlUl1PwjAUfedXNOWZdaiJumyAwY/M
-QEKYib6Z0l62xq5b2kLBX28Hg2CMJupTc3rvOb3n3MbDTSnRGrQRlUpwPwgxAsUqLlSe4JtsnKZ4OOjE
-XEQZNcWzULxyZqpyjTxRmWhjRIILa+uIEOdc4M6DSufkLAz75GU6yVgBJe0JZSxVDHDL4p9JwKSoDeyY
-Na23emVIGFwGITH+US7woINQXNMcJsLYBnhI11RIupAw8/cIymVzphyUFUsBOsFlxUEGqrLUenPd1/ms
-7L2lYXEH4+v3xwc3e73Nxg6Tv+rxq3p+8Y1eTE6njRsb04aO2EprL5mBBGZ3mXcJGR3rZOT2EXvvI1YI
-yX23X0o7Y1vcI48PHcivIbLbGhLsN/VEF/eV5KDxofG09d9J/Vrup6B2YuSg1tokJz5jcgzH/0Py9SMO
-Oh9QSwcIsUuStEQBAADFAgAAUEsBAhQAFAAICAgAAAAhALFLkrREAQAAxQIAAAgAAAAAAAAAAAAAAAAA
-AAAAAC5jb250ZW50UEsFBgAAAAABAAEANgAAAHoBAAAAAA==
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.di-516882d5-ae61-3eb8-b4c0-65727c3b7f47--
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnQtydEJgDAMBcD/DhNwgO7gClpfJRKS
+NrHF8UXw9w5FuAWoOSocWhA04cGmeUlNxsm6ul0oN6EPVnty3SSQHGEyQf6xYx96CP57AVBLBwiNH9j3
+SgAAAFYAAABQSwECFAAUAAgICAAAACEAjR/Y90oAAABWAAAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
+bnRQSwUGAAAAAAEAAQA2AAAAgAAAAAAA
+------=_contents/hu.bme.mit.examples.uml.incquery.validation/.settings/org.eclipse.pde.core.prefs-d6963d54-9a6b-3d05-b19a-7d398e48ea88--
 ------=_contents/hu.bme.mit.examples.uml.incquery/.project-09eb6866-78bc-36cf-ab9d-dbd04999ae1c
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.incquery/.project
@@ -779,49 +498,19 @@ c9PXieFSQAV6mEIFOaXpQP0VuTlcxfmlRcmpenpAM4qLktG0A0V001Pz9LnyS0sKSkvAqpIygXwAUEsH
 CH8FuVVPAAAAfgAAAFBLAQIUABQACAgIAAAAIQB/BblVTwAAAH4AAAAIAAAAAAAAAAAAAAAAAAAAAAAu
 Y29udGVudFBLBQYAAAAAAQABADYAAACFAAAAAAA=
 ------=_contents/hu.bme.mit.examples.uml.incquery.validation/build.properties-a3dc48da-96d3-382a-af92-7be1ac42e8cd--
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.notation-0abf6e06-9f9e-38b6-905e-268da5214225
+------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.di-53c1cdcc-6d3f-38c8-917c-1813ea9b934a
 Content-Type: q7/binary
-Entry-Name: contents/hu.bme.mit.examples.uml.instances/imported/model.notation
+Entry-Name: contents/hu.bme.mit.examples.uml.instances/empty-classes.di
 
-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
-------=_contents/hu.bme.mit.examples.uml.instances/imported/model.notation-0abf6e06-9f9e-38b6-905e-268da5214225--
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnStUl1rwjAUffdXhOzZpjqYUFp1yBwF
+hY0O3NuIybUNS5OQRDv//VI/Oj9e93hPzsm55yTp5KeWaAfWCa0yPIhijEAxzYUqM/xczPIcT8a9lIuk
+oK5aCcV145aqtOinFkknHLbCcJVyScAzXHlvEkKapol0XUbaluRzmXcUd01pHg+MYRwPAm1RsApq2hfK
+eaoYnFX8WgRMCuPgoDTU7O3WkTgaRTFxYVMu8LiHUGpoCQvhfDuEke6okHQt4S3gRyygUG/aOeegvNgI
+sKiysMkw1Mbv+0xS58BFSnvqQ9qHL1Mw//76vXqBWU6f2IhWy3reYHIyIXcuKbncI20XXGoOErGttcG0
+AAnMH5okZNodk2lzLDyEmrJKSB7IoemTz+mwi3FmoNBv4vcGMhze7YOu51pysPhMvKD+Qf9ew7GKW6Nb
+JCUXKVLSRQ9/jtx/unHvF1BLBwhNel16UgEAALECAABQSwECFAAUAAgICAAAACEATXpdelIBAACxAgAA
+CAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAAAAEAAQA2AAAAiAEAAAAA
+------=_contents/hu.bme.mit.examples.uml.instances/empty-classes.di-53c1cdcc-6d3f-38c8-917c-1813ea9b934a--
 ------=_contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.core.resources.prefs-d57e9c27-41b9-36d8-94ed-9e49e8b3bd95
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.settings/org.eclipse.core.resources.prefs
@@ -894,6 +583,19 @@ AlD/z7NmeIyFcFBWIHyguO9rx7SG6+DKvAMZhl3kpkWyRoPxPH0VrTjk2Yo9Tvwn6bEdl7Yf/lXPUyXO
 ffILUEsHCNW2KBZFAQAAuAIAAFBLAQIUABQACAgIAAAAIQDVtigWRQEAALgCAAAIAAAAAAAAAAAAAAAA
 AAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAAB7AQAAAAA=
 ------=_contents/hu.bme.mit.examples.uml.trace.model/META-INF/MANIFEST.MF-35424eaf-e5f5-37d5-8521-05cee8bf56a0--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java-fac70b98-2272-3c30-9696-f5c55942e761
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnR1kcFqwzAMhu9+Cu3WBWI/QEMpDAaF
+7VJa2NVx1dQstoPs0I7Rd5/tJqMkrS7Gkv5f+mxRFAwKwTqpvmWDsDftjqRC3gfdLhnTpnMUwFHDUbW6
+88jRHLlyxjibm/h+u3neiMoR8ovRPDa0/OvzY4ve9aRwE+9RJ/ICUL2UJdTYaFv2Hqk8OAVluUql3Qmh
+qlejDipRr0B675SWAQ9w1uEEITYNDPzfD+1h5rb2OKHk422c8C5VcPSTFsyKBi1SGnV7qb5utQLVxhVg
+Kk0awEuIkz1MYOGXQYwMnKKAN8Jo60Fa0NYHaSOdO2YWGoR87H36QHflOe+tuO4kSQM96ewdP2wcY/E8
+H3UPnDMinwP4I+RFsoz2rwNjCt93SIuUXObclbErCPFIzv4AUEsHCPmi/lUqAQAAhgIAAFBLAQIUABQA
+CAgIAAAAIQD5ov5VKgEAAIYCAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYA
+AABgAQAAAAA=
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceResourceImpl.java-fac70b98-2272-3c30-9696-f5c55942e761--
 ------=_contents/hu.bme.mit.examples.uml.instances/model.notation-24b80cea-de81-3b5c-bf94-6bb33dbdfc42
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.instances/model.notation
@@ -995,22 +697,20 @@ cC6Q0QUAAOEaAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAAAHBgAAAAA=
 Content-Type: q7/binary
 Entry-Name: .q7.content
 
-UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTlWE1vm0AQvVfqf0Cc66WNeqgsu5Gb
-2pLVOHVrp8mt2iwTvMmykN3FH/n1HTA4mAAGR0oOvQHzZt7bndlhoHe69oW1BKV5IPv2J/LRtkCywOXS
-69uRue18sU+/vn/XC5RHgAkeaiCKhcYQZtZkFah7HVIG3avs6iyQBtbGWvu8u4t7EsdFJqm7+LxvL4wJ
-u46zWq1I4HsEgzvXk3EGOcC1c88wsXuCcxDn7HC2JamP6LFkvyJQG+tycm7FVxy0dfWE4m7f/qsHw4v7
-n4/rIcxOHn98np7TK0MHaPRkoMD9tjkTQNWUGgMKF7SIyI0PxOeGwJr6oQBNIl8QLtlDzPXBqkZoQyUD
-XQ0xCnURP3BB2Lj3ltVj8aZKk9zgbaiCO2BGpws8JMZO/dDzlqMxdSNMUI17YBa2U4FIiarsNxEXbgwK
-QRnc1SqcBxIUNYEiwB/wZg8XCBfLJGPUYAzWnn7SXIiVL447F0sD04MS4DbPXuMTulDu03NSKVXaJsP5
-oDO+GFVKmwwuxqPhbE4mozZxtWL7IfesmMi89Zkd/NBskkzuwwrahjHsLIbFOdjbqjKJZTIBiwkL1+XU
-U9SvZZul2O9b7B8quEsNtoKjyQ014FO24BLqmXPAl9MudxFqSdO20JqvpDQKT3pOdtaPPPukbAlv1AZC
-EXlcEmzy/3UDeEFO01dHVSYP5ClpFZ0k3RjR5c1wMjDb8mmEjgrJzQGTF1oN7dZ+iG6LKtLs5YmK+DRi
-lCVUpqpETFM5TQQdKiXuh4Ey4FaX0iYOmUwCh6hfaxFH1+2zeeZ55b52D3qLZpU0HQU6iBSe4TYtq7LN
-vdnMUkhmISgmvbNNOsSyqxdZAMajRRMwjpBbAYexJ6WRXziTXfpinpzMwuyQE5DYhwJ8HNvJHV3S4jiQ
-B2fxRpThkLxpjJ9Sdk89KMcX+42oHWHyescILotZr7qlV6q9yqvReBYZXr+qjGzg0hDfCTX7W+H4Oz2u
-x60x827pNltxwxYtHK4n51MVYFPR+InVcDNbz5495+krtOe0/R+ATv8AUEsHCIVzVxYQAwAAbBAAAFBL
-AQIUABQACAgIAAAAIQCFc1cWEAMAAGwQAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBLBQYAAAAA
-AQABADYAAABGAwAAAAA=
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTlV8FO20AQvVfqP1g+Vsq6RT1UkVOU
+okSKSmhaQHCrlvXgLNi7ZndMEr6esWODY+wkhgOVerMz78283ZnxTPzDZRw592Cs1GrgfmGfXQeU0IFU
+4cBN8br3zT38/vGDr03IQEQyscCMSBCZwCVbaHNrEy6gf1E+HWmFsERnGcv+k9+DzC9FUrZPvw/cOWLS
+97zFYsF0HDJy7l1OJyVkR6wneonJ6DnOI5z3hHMdxWNCT5T4nYJZOefTYyd7kmCdi2eUDAbuXzscndz+
+eliO4PTg4efX2TG/QD4kY6i0geDH6igCbmYcEQwdaJ6yqxhYLJF9cul+HMcX2cEV5i/0mhh9AwJtIaJC
+gCWPkwgsS+OISSXuMnFuwSPmtSRjQWMi4pZ04tz1WhBFoDb7VSqjIAMlYJBO3oYLQYHhqA0DeUcvGzgd
+BZTKMqIFRKoP+6y55quawJuA0kdXSBLguhp9CycJoJnje4WUNm3T0dmwNzkZt0qbDk8m49HpGZuOu/i1
+Rmy63LBSIqvWF3aIE1zlmdyE1bSNMthRBstysHFVTRIbZdd+8b2yDl9Zl+yeRzLgSG387iWaRGkoFaOP
+xH9dnG/IqUWuBNi2TO7IU17GvTzd5DGQ++GUxnX57IVOa8mtAGMdQLQl7Nq+K9waVQ3z6vtEQ/OD5Q7/
+ld54jybKm8GA1amh2urSSq3t927f+Voya04p6b110iGT3X7IGjCQPNwHTGN3LWA39qDR8xvn2HkcnWXO
+68OsIiC3jyKIadVhN/ye18dUFVz6G3NBi8Vqb/yMi1seQjN+Q7Gkbtw6U6t6JwRu8rlddUdWob2N1TTG
+X+4TKLefqgw2DHhCC+mW+20h/ina9XVnLNkdaacLiWLegXA5PZ4ZTR8VS2vpnpfZeSfyvefN3fe6/s8h
+0iNQSwcIZ+XdaawCAABEDQAAUEsBAhQAFAAICAgAAAAhAGfl3WmsAgAARA0AAAgAAAAAAAAAAAAAAAAA
+AAAAAC5jb250ZW50UEsFBgAAAAABAAEANgAAAOICAAAAAA==
 ------=_.q7.content-3d2e0690-ce48-3609-83e0-c704d49f1eaf--
 ------=_contents/hu.bme.mit.examples.uml.instances/.project-c56cac3e-adf6-3825-a5c5-70e5ec72fc4d
 Content-Type: q7/binary
@@ -1022,6 +722,81 @@ kjSCuhc+IHC0mcOkMThIvKDjllLWZCBJMXvVNx4RKCspflSH39PpzeI/DMW68RzAzJtVIp1LhE9l4aW9
 +vIFUEsHCNRxB5+RAAAA4gAAAFBLAQIUABQACAgIAAAAIQDUcQefkQAAAOIAAAAIAAAAAAAAAAAAAAAA
 AAAAAAAuY29udGVudFBLBQYAAAAAAQABADYAAADHAAAAAAA=
 ------=_contents/hu.bme.mit.examples.uml.instances/.project-c56cac3e-adf6-3825-a5c5-70e5ec72fc4d--
+------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag-0be6e93c-f510-3cab-80ed-6a0aae2c7189
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnTVV1Fv2kgQfs+vsHz3mLC2AUMRpGoT
+0lZNoqiQqlVVVRt7MFbWu771OsD9+huvMQVs0wTIw0lJNox3vtn5Zvbz0H87j5jxBDIJBR+YdsMyDeCe
+8EMeDMz78dVZ13x7ftLnQlGFW3qXIQ0kjYx5FPZWbk7mhkA86aF9YE6VinuEzGazhoiChpAB+XbzqdgC
+npCwsQk8FsYJ6I0QTYhjWQ4ZZtsKnyJ+rVuAbjLlKoyAYBYNhxQupj5r6A/MXyy5mA4vYjmEz9HXuw/p
+xyQaPwSmoRYxHkgHHAvBEtPgNEJLGrEzJamHx4iAJqmECLi656EamHfhHJh5fmIYfW8aMl8C14FyrBVf
+t8KHtRO0/Jmb1J7AtixbQyIovOMFSLIGrMnrDX8/XAf/R80fK8ATkUoPfUdTIZWXqmUIDOKDoiGrwB8p
+iR0wFvl6Q+MhV3KxHWtUjvUIi4EZYdLs06VpPFGWbjJLlumR9fyWtpfwGNCovpKtjEeyD2r3c1CL2v5d
+HYRN1IJBUgV6KekM5Ch7vo1dQZgnGKPYxbhHyRSKY++MMMI6YlkqQ4SlEM9BvAqZAlmHuajD7JOC3X3I
+fvNd7CLbOYRsxH5tsjHE0clGzOeTvePMUxpDCT3TngpSJoKrC8GExIvj2Fan7eS2W62B16kX+tT4ICnP
+ypc9+AhhMFWZXOHnkLGls93suLZlu6bBQg5LYxch21ZrlQMwraFlxblgNEHhnUqYDMyYUTURMuoRCbl6
+ERT5leCjLjvZH6KFhtzfXDc0yl+E5DBFNEYXIsXkeIIyHm6EXXH1XqTcT7Z5KlfWmGf8NE0DBc523DzG
+Zk1e0v6d+ePt7FlvgpeBWtbRZVGjVjTOMWRRY+93jWoupkasvUT7XcwM0y7zegQV7MzZQ+uVVFBjl+t2
+ELeIeGTR05ivJnr6mv0/RG81ba7EbJx9GubOh2mapqFa02zXyTWt2a7UtB1dl38X2KZcT9k1bVdPxR31
+HmkAtWQU/n5QfZihH2y87ET73/pBu5ndq9VcXD+VUxmAqt+wx9Ajfrn3OwTaXpPS5xT6WnilbwFZiIqO
+x1Kftd7oUrvNowxw8bvp9125OIfnkoWoyaWZt219KvWNi+fg4ClRnhuzrqmIt3a3C7Ugf4xyhapRGaDi
+Hh4iR39UmS8wAaTFgyONVyRJY5Cbk9YDcD8WWNlKKr4ARgyf4P1q1zYn5ReAkW8cmD/a1qnRxp9s+fn3
+D9t2Tg27ib/5P4Wp212aul00uZ3ckq9ocNq5IV/RgA8c99TQy89C+rS+nJ/0ybbKnZ/8B1BLBwh9Ls5h
+zgMAACwRAABQSwECFAAUAAgICAAAACEAfS7OYc4DAAAsEQAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
+bnRQSwUGAAAAAAEAAQA2AAAABAQAAAAA
+------=_contents/hu.bme.mit.examples.uml.trace.model/model/uml-trace.ecorediag-0be6e93c-f510-3cab-80ed-6a0aae2c7189--
+------=_contents/hu.bme.mit.examples.uml.trace.model/.project-84027679-44c1-3f8c-a7df-8aaec760074a
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/.project
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9ks1KAzEUhdf2Kcrse6O7LtIpqLhT
+hNYHSJPrNCV/5Kf08XtnJi1ORRAEd+fcnJMPcsPXJ2vmR4xJe7dqHuC+maOTXmnXrZqP7cti2azbGQ/R
+H1DmZ0wy6pAp3M7uuBMW232BnUWwOgOehA0GExRrIEchaewVGs6GJDWktxZdbjm7KBrWy1Ov2VezK9qo
+TUBJpronqgmn+kHl+9gBSqNDQjioDNJHEuIohjzGK5wKInalp6bRsonn7JbwG2RQCK/C6U9M+fHfiBu5
+Ryv+zKuD+sSEyiXiGB31N/C7KZ12b8Nhzx1CP+Qn23C3lYsk3HXrk/91BlBLBwjX3h039QAAAJwCAABQ
+SwECFAAUAAgICAAAACEA194dN/UAAACcAgAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRlbnRQSwUGAAAA
+AAEAAQA2AAAAKwEAAAAA
+------=_contents/hu.bme.mit.examples.uml.trace.model/.project-84027679-44c1-3f8c-a7df-8aaec760074a--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java-5bc0cdd9-7694-356a-ac6f-56c80d2bd0f9
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS9VtGO2joQfecrfJ82uxLJB8CirVZb
+aV92q5Yr7atxJuA2iSPblKKKf+/YHoMJpAVp2zxAYo/HZ86cGbu4uxuxu2LUcfGNL4H939RzzQXkayvr
+yWgkm05pexi+O4wpvcxB1LIzkENT5UI1jWrzVllZbfMPJe8s6Mll1i/uTzrzy+zRqI5bfOTCKr19xqHh
+5SCUhvzpdfEVhEWzwsfNpv+Nx2wBS9mO1wb0uFSCjcczNzVfAZsuZrQJo12mxWLGKqWZxelGlVDnzvjZ
+sk6r77IEw3jLOC2aCrSYCQ3cwtvb27Tw36wBu1KldwNcrJiouTFMVT2nHhy05Qm0BwNJpuLLp5BCb7CE
+FjRuWobkrhe1FLRNND9mj8EPi1sZdkoq+zli+HjG3BOoEQgcyoCWkXryaDBIazJ9GliYTLH7kcL/I70W
+U4dbGsstRtMLOyChD0xwD/Kjz4FPjmzRQysgEh6TVYWQ/2oQIRHnU5DdEtPukRXL0ojY/T1r13Wd2rjn
+2KZPSg7PL1/mH14enyb7VbtR+O0z9BnsWreGbVaoTnAClyZywvCVdx1i54sa9vq3227PovKVdSl5c+fc
+FTE00Lp8qpZpAhCKxuo1xHqR6RYOC0iCSGm/MVGCWPgebJrmsKxXXpckMSB6J0YGJPHw+h20xsaRCmSh
+VA0uBkPa+Kj0HF1nrxSL/+vrhQJFpaSq6CuGgnL89kXRcxQZxHiocQ74yrI4T8ByeHS9JrvNl2CfCAjq
+uwft3P7ksuK1oflTqbr+YzbSYuu0K24ZeoSlL2+rPPW/7bvm37SpWIpfPNAp1fosEBAG2f0+7BY2Qyuy
+PuvHkokPSSeeV4Ib8N6eQo1l6ccZAfX4D9yla8hxdjs5WrO7HloJFV/X9hERRuFcCojM/4hl99sTYN/x
+qWqp43CNaiWtvI9GOq55w4LjtIWhTD2GQ3OIVZmeRxegu6ap7JXhiYgUxpsXoUwzQJgSwealCi+Hiqdl
++1IdpN1LPI0NE3FozeFucvPzoZbtt8Pd5ki0U2hmfoDRyLTAkd3NVYcOiW/o8HFnLDMq9JWNu+a0eEcz
+ssaOv2zxDukLy0yiT2nx7MHNqnXtsko23Fu5g8OdQ3h2yHAUbSR6F9yVPsc3uyJ3yMV2w7fXHUtudcLp
+QRNHt8OUwctuJ8c6OdsCTkXieBtq18MScCHEhDgi3juT70ToFXT1G9QfmNqxojh/Gxz9AlBLBwhhmTXQ
+kgMAAJoNAABQSwECFAAUAAgICAAAACEAYZk10JIDAACaDQAACAAAAAAAAAAAAAAAAAAAAAAALmNvbnRl
+bnRQSwUGAAAAAAEAAQA2AAAAyAMAAAAA
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceAdapterFactory.java-5bc0cdd9-7694-356a-ac6f-56c80d2bd0f9--
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java-387ffb59-9c31-32f7-bb0c-a058ac61610c
+Content-Type: q7/binary
+Entry-Name: contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAAALmNvbnRlbnS1U8tu2zAQvOsrtj7JQkR9gJMgReAC
+BhrHiF0gt4KRVjJbihT4SJ0W/veu9bCk2G2AAOFBorizw53ZVRJFAURJUPH0Jy8QvpVyY3iKzDshZ0Eg
+ykob1x93m1WD7xE/+DOvk9gdr/pjbQqGqRSVRYZlTnttkM1P0s/jDFrtDV370G7eStiVoini8e7ryugU
+rdWGkpJaJmy2wkIquaWnVo4LZWGLskIDJbqtziw4DRaN4FL8RuAqgwz7b2KFTKe+ROXsgfDyUxzDExZC
+xZ5gMQUhjq+PIVTZSeCmQIWGO8wa5/2TFGlbVWfvsHzAnSMeC6PDP0EAtGphhxXBqiXSyjrjU0cgEkMS
+HVdO0H3gttjKZV3SPwUMwqcimuBQSH2S1O9W0Dkp4ZTqhnZZT4WEYTcL1ONCUOUvbLFcbz4vb+fT6ewI
+fjV3DDsQw9uDc2GL3dfP19Y01NTlnEyZRJO6sZNdKSeQC4mNw1aQc7VH3WXd1H3hBzdfFmUlIW/2H2ng
+zf0zGiMybOw02mFKGKAf63LtjFDFBXSlsba2ayjQtQ5yd1Ay8lrkEJphFK6uQHkph6BjU9gp12yEGlGx
+yruQuvx9/riZL9eL++UFKPz1PxfD6ZuE1N2H9zLug57XeaPG9N2gBHtIknNTGvwFUEsHCN6N9FHqAQAA
+FQUAAFBLAQIUABQACAgIAAAAIQDejfRR6gEAABUFAAAIAAAAAAAAAAAAAAAAAAAAAAAuY29udGVudFBL
+BQYAAAAAAQABADYAAAAgAgAAAAA=
+------=_contents/hu.bme.mit.examples.uml.trace.model/src/UmlTrace/util/UmlTraceXMLProcessor.java-387ffb59-9c31-32f7-bb0c-a058ac61610c--
 ------=_contents/hu.bme.mit.examples.uml.incquery/build.properties-ea291bef-6f40-3fcb-a310-7b9dc24c6e9f
 Content-Type: q7/binary
 Entry-Name: contents/hu.bme.mit.examples.uml.incquery/build.properties
