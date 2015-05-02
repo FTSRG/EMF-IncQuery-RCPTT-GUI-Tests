@@ -51,8 +51,8 @@
 			<suite>IncQuery Query Explorer Tests</suite>
 			<suite>IncQuery Validation framework</suite>
 			<suite>IncQuery Testing Framework</suite>
-			<suite>IncQuery Viewers</suite>
-			<suite>IncQuery Rete Visualizer</suite>
+			<!--<suite>IncQuery Viewers</suite>-->
+			<!--<suite>IncQuery Rete Visualizer</suite>-->
           </suites>		  
         </configuration>
       </plugin>
