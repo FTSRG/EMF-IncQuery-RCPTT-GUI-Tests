@@ -28,8 +28,8 @@
             <explicit>${autPath}</explicit>
 			<vmArgs> 
 				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>
-				<!--<vmArg>-Xmx1024m</vmArg>-->
-				<!--<vmArg>-XX:MaxPermSize=512m</vmArg>	-->			
+				<vmArg>-Xmx1024m</vmArg>
+				<vmArg>-XX:MaxPermSize=512m</vmArg>		
 			</vmArgs>
           </aut>
           <runner>
@@ -52,7 +52,7 @@
 			<suite>IncQuery Validation framework</suite>
 			<suite>IncQuery Testing Framework</suite>
 			<suite>IncQuery Viewers</suite>
-			<!--<suite>IncQuery Rete Visualizer</suite>-->
+			<suite>IncQuery Rete Visualizer</suite>
           </suites>		  
         </configuration>
       </plugin>
