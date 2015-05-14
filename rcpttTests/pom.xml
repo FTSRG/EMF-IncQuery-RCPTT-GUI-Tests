@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Change groupId, artifactId and version -->
+  <artifactId>rcptt.tests</artifactId>
+  <groupId>incquery.gui.tests</groupId>
+  <version>1.0.0</version>
+  <packaging>rcpttTest</packaging>
+
+  <parent>
+    <groupId>incquery.gui.tests</groupId>
+    <artifactId>parentpom</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../parent/</relativePath>
+  </parent>
+
+  <!-- Change properies below to your values -->
+  <properties>
+  <autPath>../application/target/products/IncQuery-[platform].zip</autPath>
+  <!--<runnerPath>C:\Development\Szakdolgozat\rcptt.runner-incubation-1.5.6-N201504280833.zip</runnerPath>-->
+  <runnerPath>/usr/rcptt.runner-incubation-1.5.6-N201504182315.zip</runnerPath>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.xored.ci4rcptt</groupId>
+        <artifactId>ci4rcptt-maven-plugin</artifactId>
+        <version>1.5.6-SNAPSHOT</version>
+        <extensions>true</extensions>
+        <configuration>
+          <aut>
+            <explicit>${autPath}</explicit>
+			<vmArgs>
+				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>
+				<vmArg>-Xmx1024m</vmArg>
+				<vmArg>-XX:MaxPermSize=512m</vmArg>
+			</vmArgs>
+          </aut>
+          <runner>
+            <explicit>${runnerPath}</explicit>
+          </runner>
+		  <testOptions>
+			<execTimeout>7200</execTimeout>
+			<testExecTimeout>600</testExecTimeout>
+		  </testOptions>
+		  <skipTags>
+			<skipTag>testToSkip</skipTag>
+		  </skipTags>
+
+
+		  <!--Remove if you want to run all tests!-->
+		      <suites>
+            <suite>IncQuery Project Tests</suite>
+			      <suite>IncQuery Preferences</suite>
+			      <suite>IncQuery Query Explorer Tests</suite>
+			      <suite>IncQuery Validation framework</suite>
+			      <suite>IncQuery Testing Framework</suite>
+			      <suite>IncQuery Viewers</suite>
+			      <suite>IncQuery Rete Visualizer</suite>
+          </suites>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>xored-releases</id>
+      <name>Xored Maven repository</name>
+      <url>http://maven.xored.com/nexus/content/repositories/ci4rcptt-snapshots/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+</project>

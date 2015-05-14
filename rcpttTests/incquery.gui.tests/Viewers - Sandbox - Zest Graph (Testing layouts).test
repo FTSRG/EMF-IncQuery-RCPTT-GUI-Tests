@@ -1,0 +1,127 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _sAENkOzxEeS2zK4PLaWtaA,_XaZh0PFqEeSg4sYxm-LxRw,_d4VhEOz1EeS2zK4PLaWtaA,_8ti6sOz1EeS2zK4PLaWtaA,_8KFf8O0DEeS2zK4PLaWtaA
+Element-Name: Viewers - Sandbox - Zest Graph (Testing layouts)
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _xeOdYO0HEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 5/3/15 10:19 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "IncQuery Viewers Sandbox"] {
+    with [get-group "Activated queries" | get-tree] {
+        select "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" 
+            | get-item "Item : uml.emptyclass.emptyClass" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.aggregatorRecipeParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeLeftParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeRightParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.multiParentNodeRecipeParents" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.singleParentNodeRecipeParent" | uncheck
+        get-item "Edge : uml.emptyclass.transitiveSuperClass" | uncheck
+    }
+    with [get-tab-folder] {
+        get-tab-item "Zest Graph" | click
+        get-tab-item Settings | click
+    }
+    get-button Apply | click
+    get-tab-folder | get-tab-item "Zest Graph" | click
+    with [get-canvas] {
+        mouse-enter 147 3 -height 429 -width 991
+        mouse-move 528 213 -height 429 -width 991
+        mouse-move 586 166 -height 429 -width 991
+        mouse-hover 586 166 -height 429 -width 991
+        mouse-move 552 240 -height 429 -width 991
+        mouse-move 573 272 -height 429 -width 991
+        mouse-move 704 425 -height 429 -width 991
+        mouse-exit 712 437 -height 429 -width 991
+        mouse-enter 631 426 -height 429 -width 991
+        mouse-move 542 425 -height 429 -width 991
+        mouse-exit 529 431 -height 429 -width 991
+        mouse-enter 202 421 -height 429 -width 991
+        mouse-move 120 340 -height 429 -width 991
+        mouse-hover 120 340 -height 429 -width 991
+        mouse-move 865 1 -height 429 -width 991
+        mouse-exit 866 "-1" -height 429 -width 991
+    }
+}
+get-button "View Menu" -index 3 | click
+with [get-view "IncQuery Viewers Sandbox"] {
+    get-menu "Layout/Tree" | click
+    with [get-canvas] {
+        mouse-enter 664 3 -height 429 -width 998
+        mouse-move 311 163 -height 429 -width 998
+        mouse-hover 311 163 -height 429 -width 998
+        mouse-move 49 132 -height 429 -width 998
+        get-figure "0/0" | mouse-move 2 103 -height 167 -width 24
+        mouse-exit "-3" 126 -height 429 -width 998
+    }
+}
+get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getGraph().getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.TreeLayoutAlgorithm" | verify-true
+get-button "View Menu" -index 3 | click
+get-button "View Menu" -index 3 | click
+with [get-view "IncQuery Viewers Sandbox"] {
+    get-menu "Layout/Spring" | click
+    with [get-canvas] {
+        mouse-enter 784 1 -height 429 -width 998
+        mouse-move 784 1 -height 429 -width 998
+        mouse-hover 777 1 -height 429 -width 991
+        mouse-move 136 2 -height 429 -width 991
+        mouse-exit "-98" "-12" -height 429 -width 991
+    }
+}
+get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.SpringLayoutAlgorithm" | verify-true
+with [get-view "IncQuery Viewers Sandbox" | get-canvas] {
+    get-figure "0/4" | mouse-enter 46 0 -height 22 -width 69
+    mouse-move 723 3 -height 429 -width 991
+    mouse-exit 731 "-1" -height 429 -width 991
+}
+get-button "View Menu" -index 3 | click
+with [get-view "IncQuery Viewers Sandbox"] {
+    get-menu "Layout/Radial" | click
+    with [get-canvas] {
+        mouse-enter 785 31 -height 429 -width 991
+        mouse-move 769 40 -height 429 -width 991
+        mouse-move 695 5 -height 429 -width 991
+        mouse-exit 669 "-3" -height 429 -width 991
+    }
+}
+with [get-view "IncQuery Viewers Sandbox" | get-canvas] {
+    get-property "getNodes().size()" | equals 3 | verify-true
+    get-property "getLayoutAlgorithm().getClassName()" 
+        | equals "org.eclipse.gef4.layout.algorithms.RadialLayoutAlgorithm" | verify-true
+}
+with [get-view "IncQuery Viewers Sandbox" | get-canvas] {
+    mouse-enter 18 138 -height 429 -width 991
+    mouse-move 466 192 -height 429 -width 991
+    get-figure "0/6" | mouse-move 51 0 -height 22 -width 70
+    get-figure "0/0" | mouse-move 388 "-2" -height 170 -width 390
+    mouse-move 902 0 -height 429 -width 991
+    mouse-exit 905 "-3" -height 429 -width 991
+}
+get-button "View Menu" -index 3 | click
+with [get-view "IncQuery Viewers Sandbox"] {
+    get-menu "Layout/Sugiyama (unstable)" | click
+    with [get-canvas] {
+        mouse-enter 744 47 -height 429 -width 991
+        mouse-move 744 47 -height 429 -width 991
+        mouse-hover 744 47 -height 429 -width 991
+        mouse-move 493 104 -height 429 -width 991
+        with [get-figure "0/1/0"] {
+            mouse-move 32 6 -height 16 -width 49
+            mouse-move 6 13 -height 16 -width 49
+        }
+        mouse-move 3 45 -height 429 -width 991
+        mouse-exit "-9" 39 -height 429 -width 991
+    }
+}
+get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.CompositeLayoutAlgorithm" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

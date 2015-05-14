@@ -1,0 +1,52 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _sAENkOzxEeS2zK4PLaWtaA,_XaZh0PFqEeSg4sYxm-LxRw,_d4VhEOz1EeS2zK4PLaWtaA,_8ti6sOz1EeS2zK4PLaWtaA,_8KFf8O0DEeS2zK4PLaWtaA
+Element-Name: Viewers - Sandbox - Zest Graph (Clear graph)
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _AMS-4O0JEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 5/3/15 10:19 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "IncQuery Viewers Sandbox"] {
+    with [get-group "Activated queries" | get-tree] {
+        select "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" 
+            | get-item "Item : uml.emptyclass.emptyClass" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.aggregatorRecipeParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeLeftParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeRightParent" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.multiParentNodeRecipeParents" | uncheck
+        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.singleParentNodeRecipeParent" | uncheck
+        get-item "Edge : uml.emptyclass.transitiveSuperClass" | uncheck
+    }
+    get-button Apply | click
+    get-tab-folder | get-tab-item "Zest Graph" | click
+    with [get-canvas] {
+        mouse-enter 109 7 -height 449 -width 991
+        mouse-move 0 91 -height 449 -width 991
+        mouse-exit "-3" 87 -height 449 -width 991
+    }
+}
+get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getNodes().size()" | equals 3 | verify-true
+with [get-view "IncQuery Viewers Sandbox"] {
+    with [get-canvas] {
+        mouse-enter 42 2 -height 449 -width 991
+        mouse-move 98 22 -height 449 -width 991
+        mouse-move 785 3 -height 449 -width 991
+        mouse-exit 793 "-1" -height 449 -width 991
+    }
+    get-button "Clear Graph" | click
+    with [get-canvas] {
+        mouse-enter 458 0 -height 449 -width 991
+        mouse-move 207 4 -height 449 -width 991
+        mouse-exit 170 "-4" -height 449 -width 991
+    }
+}
+get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getNodes().size()" | equals 0 | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

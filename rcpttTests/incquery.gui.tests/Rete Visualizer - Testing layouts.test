@@ -1,0 +1,101 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _sAENkOzxEeS2zK4PLaWtaA,_XaZh0PFqEeSg4sYxm-LxRw,_d4VhEOz1EeS2zK4PLaWtaA,_8ti6sOz1EeS2zK4PLaWtaA
+Element-Name: Rete Visualizer - Testing layouts
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _5AKykO0MEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 5/3/15 10:19 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Query Explorer" | get-tree -index 1 
+    | select "\\[platform:\\/resource\\/hu.bme.mit.examples.uml.instances\\/empty-classes.uml\\]\\[org.eclipse.uml2.uml.editor.presentation.UMLEditorID\\]/uml.emptyclass.superClass - 5 matches   \\(Runtime\\)" 
+    | double-click
+with [get-view "Rete Visualizer" | get-canvas] {
+    get-figure "0/23" | mouse-enter 83 2 -height 21 -width 410
+    mouse-move 480 119 -height 409 -width 993
+    mouse-hover 480 119 -height 409 -width 993
+    mouse-move 217 88 -height 409 -width 993
+    mouse-move 120 72 -height 409 -width 993
+    with [get-figure "0/21"] {
+        mouse-move 13 7 -height 21 -width 107
+        mouse-hover 13 7 -height 21 -width 107
+    }
+    mouse-move 19 82 -height 409 -width 993
+    mouse-move 22 109 -height 409 -width 993
+    mouse-move 28 135 -height 409 -width 993
+    mouse-move 985 167 -height 409 -width 993
+    mouse-exit 998 160 -height 409 -width 993
+    mouse-enter 991 78 -height 409 -width 993
+    mouse-move 963 51 -height 409 -width 993
+    mouse-move 935 25 -height 409 -width 993
+    mouse-move 918 0 -height 409 -width 993
+    mouse-exit 917 "-1" -height 409 -width 993
+}
+get-button "View Menu" -index 3 | click
+with [get-view "Rete Visualizer"] {
+    get-menu "Layout/Tree" | click
+    with [get-canvas] {
+        get-figure "0/24" | mouse-enter 276 4 -height 21 -width 411
+        mouse-move 683 72 -height 409 -width 993
+        mouse-move 456 98 -height 409 -width 993
+        get-figure "0/24" | mouse-move 121 5 -height 21 -width 411
+        mouse-exit 72 "-7" -height 409 -width 993
+    }
+}
+get-view "Rete Visualizer" | get-canvas | get-property "getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.TreeLayoutAlgorithm" | verify-true
+with [get-view "Rete Visualizer" | get-canvas] {
+    mouse-enter 23 136 -height 409 -width 993
+    mouse-move 575 172 -height 409 -width 993
+    mouse-move 631 139 -height 409 -width 993
+    mouse-move 702 91 -height 409 -width 993
+    mouse-move 882 26 -height 409 -width 993
+    mouse-move 897 1 -height 409 -width 993
+    mouse-exit 898 "-1" -height 409 -width 993
+}
+get-button "View Menu" -index 3 | click
+with [get-view "Rete Visualizer"] {
+    get-menu "Layout/Spring" | click
+    with [get-canvas] {
+        mouse-enter 819 27 -height 409 -width 993
+        mouse-move 780 37 -height 409 -width 993
+        mouse-move 624 63 -height 409 -width 993
+        get-figure "0/7/0" | mouse-move 3 1 -height 15 -width 25
+        mouse-move 493 5 -height 409 -width 993
+        mouse-exit 460 "-3" -height 409 -width 993
+    }
+}
+get-view "Rete Visualizer" | get-canvas | get-property "getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.SpringLayoutAlgorithm" | verify-true
+with [get-view "Rete Visualizer" | get-canvas] {
+    mouse-enter 275 9 -height 409 -width 993
+    mouse-move 833 60 -height 409 -width 993
+    mouse-move 901 25 -height 409 -width 993
+    mouse-move 924 0 -height 409 -width 993
+    mouse-exit 924 "-1" -height 409 -width 993
+}
+get-button "View Menu" -index 3 | click
+with [get-view "Rete Visualizer"] {
+    get-menu "Layout/Radial" | click
+    with [get-canvas] {
+        get-figure "0/18" | mouse-enter 46 10 -height 21 -width 107
+        mouse-move 460 2 -height 409 -width 993
+        mouse-exit 411 "-12" -height 409 -width 993
+    }
+}
+get-view "Rete Visualizer" | get-canvas | get-property "getLayoutAlgorithm().getClassName()" 
+    | equals "org.eclipse.gef4.layout.algorithms.RadialLayoutAlgorithm" | verify-true
+with [get-view "Rete Visualizer" | get-canvas] {
+    mouse-enter 7 124 -height 409 -width 993
+    mouse-move 937 1 -height 409 -width 993
+    mouse-exit 938 "-1" -height 409 -width 993
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

@@ -1,0 +1,37 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _zHT_IMUHEeSpxbwabAnitw,_XaZh0PFqEeSg4sYxm-LxRw,_w0lG0N6KEeSH_c6z_E9ixw,_7VaK8N0OEeSqCbiyW6IFWQ
+Element-Name: Query Explorer - Details/Filters - Popup window
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _sVLfIN6REeSH_c6z_E9ixw
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 5/3/15 10:08 AM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+This test case is testing the Details/Filters contex dependent popup window.
+
+Asserts:
+* the school.studentOfSchool Popup window has got 5 items
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "Query Explorer"] {
+    get-tree -index 1 
+        | select "[platform:\\/resource\\/school.instancemodel\\/BUTE.school][org.eclipse.emf.ecore.presentation.ReflectiveEditorID]/school.studentOfSchool - 5 matches   (Runtime)"
+    with [get-table] {
+        select S | activate-cell-edit -column 1
+        get-editbox | click-text
+        get-button "..." | click
+    }
+}
+
+get-window "Model element selection" | get-table | get-property itemCount | equals 5 | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

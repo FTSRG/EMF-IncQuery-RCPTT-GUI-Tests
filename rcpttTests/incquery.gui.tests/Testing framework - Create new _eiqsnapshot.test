@@ -1,0 +1,46 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _SS4ocO0XEeS2zK4PLaWtaA,_XaZh0PFqEeSg4sYxm-LxRw,_w0lG0N6KEeSH_c6z_E9ixw,_7VaK8N0OEeSqCbiyW6IFWQ
+Element-Name: Testing framework - Create new .eiqsnapshot
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _wCdS4O0bEeS2zK4PLaWtaA
+Runtime-Version: 1.5.4.201412181238
+Save-Time: 5/3/15 10:19 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Query Explorer" | get-tree -index 1 
+    | select "[platform:\\/resource\\/school.instancemodel\\/BUTE.school][org.eclipse.emf.ecore.presentation.ReflectiveEditorID]/school.teachersNames - 4 matches   (Runtime)" 
+    | get-menu "Save EMF-IncQuery snapshot" | click
+with [get-window "Existing snapshot"] {
+    get-tree | select "school.incquery"
+    get-button Cancel | click
+}
+with [get-window "New snapshot"] {
+    get-tree | select "school.tests/model/demo"
+    with [get-editbox -after [get-label "File Name:"]] {
+        set-text new
+        set-text "teachernames.eiqsnaphot"
+    }
+    get-button OK | click
+}
+get-editor "BUTE.school" | get-tree 
+    | get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/teachernames.eiqsnaphot" | get-property caption 
+    | equals "platform:/resource/school.tests/model/demo/teachernames.eiqsnaphot" | verify-true
+get-view "Project Explorer" | get-tree | get-item "school.tests/model/demo/teachernames.eiqsnaphot" 
+    | get-property caption | equals "teachernames.eiqsnaphot" | verify-true
+get-view "Project Explorer" | get-tree | select "school.tests/model/demo/teachernames.eiqsnaphot" 
+    | get-menu "Open With/Other..." | click
+with [get-window "Editor Selection"] {
+    get-table | select "EIQSnapshot Model Editor"
+    get-button OK | click
+}
+get-editor "teachernames.eiqsnaphot" | get-tree 
+    | get-item "platform:\\/resource\\/school.tests\\/model\\/demo\\/teachernames.eiqsnaphot/Inc Query Snapshot ResourceSet/Match Set Record school.teachersNames" 
+    | get-property childCount | equals 5 | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
