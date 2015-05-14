@@ -3,12 +3,11 @@
 ## Jenkins configuration
 
 1. Modify pom.xml
-  * You have to change the following properties:
-    * autPath, for example: /usr/eclipse-IncQuery-AUT/
-      * EMF-IncQuery must be installed in it (latest build) 
+  * You have to change the following property
     * runnerPath, for example: /usr/rcptt.runner-incubation-1.5.6-N201504182315.zip
       * you can download it from here: https://eclipse.org/rcptt/download/
-      * you will need the nightly build of "Test Runner" 
+      * you will need the nightly build of "Test Runner"
+    * the aut is automatically generated, add features and plugins, if you want to test new ones (in  application/product.product file)
     
 1. Create new Jenkins Job. 
 
@@ -18,6 +17,9 @@
   To remove .git folder form workspace, use this shell command (if you don't add this build step, all tests will fail):
 
   <code>rm -rf $WORKSPACE/.git/</code>
+  
+  Remove this line from rcpttTests/pom.xml if you dont want coverage information with JaCoCo Jenkins Plugin:
+  	<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>
 
   More commands:
 
@@ -28,4 +30,4 @@
   
   <code>Xvnc :$DISPLAY_NUMBER -geometry 800x600</code>
 
-3. Current state: 5 tests fail
+
