@@ -19,7 +19,7 @@
   <code>rm -rf $WORKSPACE/.git/</code>
   
   Remove this line from rcpttTests/pom.xml if you dont want coverage information with JaCoCo Jenkins Plugin:
-  	<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>
+  	"<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>"
 
   More commands:
 
