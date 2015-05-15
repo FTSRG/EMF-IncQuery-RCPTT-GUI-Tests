@@ -24,6 +24,18 @@
       startupProgressRect="2,290,448,10"
       startupMessageRect="7,265,320,20"
       startupForegroundColor="9c9696" />
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+
    <plugins>
       <plugin id="com.google.guava"/>
       <plugin id="com.google.inject"/>
@@ -33,6 +45,7 @@
       <plugin id="javax.inject"/>
       <plugin id="javax.xml"/>
       <plugin id="org.antlr.runtime"/>
+      <plugin id="org.apache.ant"/>
       <plugin id="org.apache.batik.css"/>
       <plugin id="org.apache.batik.util"/>
       <plugin id="org.apache.batik.util.gui"/>
@@ -41,6 +54,8 @@
       <plugin id="org.apache.commons.logging"/>
       <plugin id="org.apache.log4j"/>
       <plugin id="org.eclipse.ant.core"/>
+      <plugin id="org.eclipse.ant.launching"/>
+      <plugin id="org.eclipse.ant.ui"/>
       <plugin id="org.eclipse.compare"/>
       <plugin id="org.eclipse.compare.core"/>
       <plugin id="org.eclipse.core.commands"/>
@@ -50,6 +65,7 @@
       <plugin id="org.eclipse.core.databinding.observable"/>
       <plugin id="org.eclipse.core.databinding.property"/>
       <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.externaltools"/>
       <plugin id="org.eclipse.core.filebuffers"/>
       <plugin id="org.eclipse.core.filesystem"/>
       <plugin id="org.eclipse.core.filesystem.java7" fragment="true"/>
@@ -117,14 +133,17 @@
       <plugin id="org.eclipse.equinox.p2.jarprocessor"/>
       <plugin id="org.eclipse.equinox.p2.metadata"/>
       <plugin id="org.eclipse.equinox.p2.metadata.repository"/>
+      <plugin id="org.eclipse.equinox.p2.operations"/>
       <plugin id="org.eclipse.equinox.p2.publisher"/>
       <plugin id="org.eclipse.equinox.p2.publisher.eclipse"/>
       <plugin id="org.eclipse.equinox.p2.repository"/>
       <plugin id="org.eclipse.equinox.p2.repository.tools"/>
       <plugin id="org.eclipse.equinox.p2.touchpoint.eclipse"/>
+      <plugin id="org.eclipse.equinox.p2.ui"/>
       <plugin id="org.eclipse.equinox.preferences"/>
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.equinox.security"/>
+      <plugin id="org.eclipse.equinox.security.ui"/>
       <plugin id="org.eclipse.equinox.simpleconfigurator"/>
       <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator"/>
       <plugin id="org.eclipse.equinox.util"/>
@@ -202,6 +221,9 @@
       <plugin id="org.eclipse.jdt.core.manipulation"/>
       <plugin id="org.eclipse.jdt.debug"/>
       <plugin id="org.eclipse.jdt.debug.ui"/>
+      <plugin id="org.eclipse.jdt.junit"/>
+      <plugin id="org.eclipse.jdt.junit.core"/>
+      <plugin id="org.eclipse.jdt.junit.runtime"/>
       <plugin id="org.eclipse.jdt.launching"/>
       <plugin id="org.eclipse.jdt.ui"/>
       <plugin id="org.eclipse.jface"/>
@@ -213,8 +235,21 @@
       <plugin id="org.eclipse.osgi.compatibility.state" fragment="true"/>
       <plugin id="org.eclipse.osgi.services"/>
       <plugin id="org.eclipse.pde"/>
+      <plugin id="org.eclipse.pde.api.tools"/>
+      <plugin id="org.eclipse.pde.api.tools.annotations"/>
+      <plugin id="org.eclipse.pde.api.tools.ui"/>
       <plugin id="org.eclipse.pde.build"/>
       <plugin id="org.eclipse.pde.core"/>
+      <plugin id="org.eclipse.pde.doc.user"/>
+      <plugin id="org.eclipse.pde.ds.core"/>
+      <plugin id="org.eclipse.pde.ds.ui"/>
+      <plugin id="org.eclipse.pde.junit.runtime"/>
+      <plugin id="org.eclipse.pde.launching"/>
+      <plugin id="org.eclipse.pde.runtime"/>
+      <plugin id="org.eclipse.pde.ua.core"/>
+      <plugin id="org.eclipse.pde.ua.ui"/>
+      <plugin id="org.eclipse.pde.ui"/>
+      <plugin id="org.eclipse.pde.ui.templates"/>
       <plugin id="org.eclipse.platform"/>
       <plugin id="org.eclipse.search"/>
       <plugin id="org.eclipse.swt"/>
@@ -226,13 +261,16 @@
       <plugin id="org.eclipse.ui.cheatsheets"/>
       <plugin id="org.eclipse.ui.console"/>
       <plugin id="org.eclipse.ui.editors"/>
+      <plugin id="org.eclipse.ui.externaltools"/>
       <plugin id="org.eclipse.ui.forms"/>
       <plugin id="org.eclipse.ui.ide"/>
       <plugin id="org.eclipse.ui.ide.application"/>
       <plugin id="org.eclipse.ui.intro"/>
       <plugin id="org.eclipse.ui.navigator"/>
       <plugin id="org.eclipse.ui.navigator.resources"/>
+      <plugin id="org.eclipse.ui.trace"/>
       <plugin id="org.eclipse.ui.views"/>
+      <plugin id="org.eclipse.ui.views.log"/>
       <plugin id="org.eclipse.ui.views.properties.tabbed"/>
       <plugin id="org.eclipse.ui.workbench"/>
       <plugin id="org.eclipse.ui.workbench.texteditor"/>
@@ -265,6 +303,7 @@
       <plugin id="org.hamcrest.core"/>
       <plugin id="org.junit"/>
       <plugin id="org.objectweb.asm"/>
+      <plugin id="org.objectweb.asm.tree"/>
       <plugin id="org.sat4j.core"/>
       <plugin id="org.sat4j.pb"/>
       <plugin id="org.w3c.css.sac"/>
@@ -293,5 +332,13 @@
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
    </features>
 
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
 
 </product>
