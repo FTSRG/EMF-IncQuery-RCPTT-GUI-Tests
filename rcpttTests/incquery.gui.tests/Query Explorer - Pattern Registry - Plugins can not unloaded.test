@@ -7,17 +7,17 @@ Element-Version: 3.0
 External-Reference: 
 Id: _7eBcoN6IEeSH_c6z_E9ixw
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 5/3/15 10:19 AM
+Save-Time: 5/15/15 9:19 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
 Content-Type: text/ecl
 Entry-Name: .content
 
-get-view "Query Explorer" | get-tree | select "Plug-in/org.eclipse.incquery.tooling.ui.retevis/filterRecipe" 
-    | get-menu "Unregister pattern" | click
-get-view "Query Explorer" | get-tree -index 1 
-    | get-item "\\[platform:\\/resource\\/school.instancemodel\\/BUTE.school\\]\\[org.eclipse.emf.ecore.presentation.ReflectiveEditorID\\]/org.eclipse.incquery.tooling.ui.retevis.filterRecipe - No matches   \\(Generated\\)" 
-    | get-property caption | equals "org.eclipse.incquery.tooling.ui.retevis.filterRecipe - No matches   (Generated)" 
-    | verify-true
+
+get-view "Query Explorer" | get-tree | get-item "Plug-in" | get-property childCount | equals 5 | verify-true
+with [get-view "Query Explorer" | get-tree] {
+    select "Plug-in" | get-menu "Unregister pattern" | click
+}
+get-view "Query Explorer" | get-tree | get-item "Plug-in" | get-property childCount | equals 5 | verify-true
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

@@ -7,7 +7,7 @@ Element-Version: 3.0
 External-Reference: 
 Id: _xeOdYO0HEeS2zK4PLaWtaA
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 5/3/15 10:19 AM
+Save-Time: 5/15/15 8:25 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
@@ -16,13 +16,7 @@ Entry-Name: .content
 
 with [get-view "IncQuery Viewers Sandbox"] {
     with [get-group "Activated queries" | get-tree] {
-        select "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" 
-            | get-item "Item : uml.emptyclass.emptyClass" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.aggregatorRecipeParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeLeftParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeRightParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.multiParentNodeRecipeParents" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.singleParentNodeRecipeParent" | uncheck
+        get-item "Item : uml.emptyclass.emptyClass" | uncheck
         get-item "Edge : uml.emptyclass.transitiveSuperClass" | uncheck
     }
     with [get-tab-folder] {
@@ -50,7 +44,7 @@ with [get-view "IncQuery Viewers Sandbox"] {
         mouse-exit 866 "-1" -height 429 -width 991
     }
 }
-get-button "View Menu" -index 3 | click
+get-button "View Menu"  | click
 with [get-view "IncQuery Viewers Sandbox"] {
     get-menu "Layout/Tree" | click
     with [get-canvas] {
@@ -64,8 +58,8 @@ with [get-view "IncQuery Viewers Sandbox"] {
 }
 get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getGraph().getLayoutAlgorithm().getClassName()" 
     | equals "org.eclipse.gef4.layout.algorithms.TreeLayoutAlgorithm" | verify-true
-get-button "View Menu" -index 3 | click
-get-button "View Menu" -index 3 | click
+get-button "View Menu"  | click
+get-button "View Menu"  | click
 with [get-view "IncQuery Viewers Sandbox"] {
     get-menu "Layout/Spring" | click
     with [get-canvas] {
@@ -83,7 +77,7 @@ with [get-view "IncQuery Viewers Sandbox" | get-canvas] {
     mouse-move 723 3 -height 429 -width 991
     mouse-exit 731 "-1" -height 429 -width 991
 }
-get-button "View Menu" -index 3 | click
+get-button "View Menu" | click
 with [get-view "IncQuery Viewers Sandbox"] {
     get-menu "Layout/Radial" | click
     with [get-canvas] {
@@ -106,7 +100,7 @@ with [get-view "IncQuery Viewers Sandbox" | get-canvas] {
     mouse-move 902 0 -height 429 -width 991
     mouse-exit 905 "-3" -height 429 -width 991
 }
-get-button "View Menu" -index 3 | click
+get-button "View Menu"  | click
 with [get-view "IncQuery Viewers Sandbox"] {
     get-menu "Layout/Sugiyama (unstable)" | click
     with [get-canvas] {

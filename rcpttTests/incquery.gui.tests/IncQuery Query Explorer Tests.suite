@@ -5,7 +5,7 @@ Element-Type: testsuite
 Element-Version: 2.0
 Id: _oRFNIN0IEeSqCbiyW6IFWQ
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 5/2/15 8:27 PM
+Save-Time: 5/15/15 1:28 AM
 
 ------=_testcase-items-62c497da-4241-31f4-811a-6b453a3ecff8
 Content-Type: text/testcase
@@ -23,7 +23,6 @@ _F1cX4N6TEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Details/Filters 
 _sVLfIN6REeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Details/Filters - Popup window' path: 'Query Explorer - Details_Filters - Popup window.test'
 _ofGfEN6JEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Pattern Registry - Checkbox filtering' path: 'Query Explorer - Pattern Registry - Checkbox filtering.test'
 _7eBcoN6IEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Pattern Registry - Plugins can not unloaded' path: 'Query Explorer - Pattern Registry - Plugins can not unloaded.test'
-_N2_QoN6MEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Result Viewer - Automatic syncronization (CHANGES WORKSPACE!)' path: 'Query Explorer - Result Viewer - Automatic syncronization (CHANGES WORKSPACE!).test'
 _zLjd4N6NEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Result Viewer - Data binding' path: 'Query Explorer - Result Viewer - Data binding.test'
 _wrVR8N6PEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Result Viewer - Show location (to .eiq file)' path: 'Query Explorer - Result Viewer - Show location (to .eiq file).test'
 _sLPVcN6QEeSH_c6z_E9ixw	// kind: 'test' name: 'Query Explorer - Result Viewer - Show location (to instance model)' path: 'Query Explorer - Result Viewer - Show location (to instance model).test'

@@ -6,13 +6,13 @@ Element-Type: context
 Element-Version: 2.0
 Id: _8KFf8O0DEeS2zK4PLaWtaA
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 4/27/15 7:37 PM
+Save-Time: 5/15/15 8:15 PM
 
 ------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
 Content-Type: text/ecl
 Entry-Name: .ecl.context
 
 get-view "Query Explorer" | get-tree -index 1 
-    | select "[platform:\\/resource\\/hu.bme.mit.examples.uml.instances\\/empty-classes.uml][org.eclipse.uml2.uml.editor.presentation.UMLEditorID]/uml.emptyclass.emptyClass - 3 matches   (Runtime)" 
+    | select "[platform:\\/resource\\/hu.bme.mit.examples.uml.instances\\/empty-classes.uml][org.eclipse.emf.ecore.presentation.ReflectiveEditorID]/uml.emptyclass.emptyClass - 3 matches   (Runtime)" 
     | get-menu "Reinitialize IncQuery Viewers" | click
 ------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

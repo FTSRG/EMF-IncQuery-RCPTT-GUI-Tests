@@ -7,7 +7,7 @@ Element-Version: 3.0
 External-Reference: 
 Id: _AMS-4O0JEeS2zK4PLaWtaA
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 5/3/15 10:19 AM
+Save-Time: 5/15/15 8:23 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
@@ -16,13 +16,7 @@ Entry-Name: .content
 
 with [get-view "IncQuery Viewers Sandbox"] {
     with [get-group "Activated queries" | get-tree] {
-        select "Item : org.eclipse.incquery.tooling.ui.retevis.aggregatorIndexerRecipe" 
-            | get-item "Item : uml.emptyclass.emptyClass" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.aggregatorRecipeParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeLeftParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.betaRecipeRightParent" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.multiParentNodeRecipeParents" | uncheck
-        get-item "Edge : org.eclipse.incquery.tooling.ui.retevis.singleParentNodeRecipeParent" | uncheck
+        get-item "Item : uml.emptyclass.emptyClass" | uncheck
         get-item "Edge : uml.emptyclass.transitiveSuperClass" | uncheck
     }
     get-button Apply | click
