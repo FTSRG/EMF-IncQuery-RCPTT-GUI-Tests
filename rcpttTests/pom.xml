@@ -33,7 +33,7 @@
           <aut>
             <explicit>${autPath}</explicit>
 			<vmArgs>
-				<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>
+				<!--<vmArg>-javaagent:/usr/jacoco/lib/jacocoagent.jar=destfile=/var/lib/jenkins/jobs/EMF-IncQuery-RCPTT-GUI-Tests/workspace/target/jacoco.exec</vmArg>-->
 				<vmArg>-Xmx1024m</vmArg>
 				<vmArg>-XX:MaxPermSize=512m</vmArg>
 			</vmArgs>
