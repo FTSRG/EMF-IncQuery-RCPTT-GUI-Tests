@@ -6,11 +6,22 @@ Element-Type: context
 Element-Version: 2.0
 Id: _d4VhEOz1EeS2zK4PLaWtaA
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 4/27/15 5:53 PM
+Save-Time: 6/5/15 6:55 PM
 
 ------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
 Content-Type: text/ecl
 Entry-Name: .ecl.context
+
+/*******************************************************************************
+ * Copyright (c) 2010-2015, Andras Bator, Istvan Rath and Daniel Varro
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *   Andras Bator - Testing IncQuery GUI
+ *******************************************************************************/
 
 get-view "Project Explorer" | get-tree | select "hu.bme.mit.examples.uml.instances/empty-classes.uml" | double-click
 get-view "Query Explorer" | get-button "Load model" | click -arrow
