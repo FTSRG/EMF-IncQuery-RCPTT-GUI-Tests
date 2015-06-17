@@ -1,5 +1,7 @@
 # EMF-IncQuery-RCPTT-GUI-Tests
 
+[![Build Status](https://build.inf.mit.bme.hu/jenkins/job/incquery-rcptt-tests/badge/icon)](https://build.inf.mit.bme.hu/jenkins/job/incquery-rcptt-tests/)
+
 ## Jenkins configuration
 
 1. Modify pom.xml
