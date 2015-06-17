@@ -7,7 +7,7 @@ Element-Version: 3.0
 External-Reference: 
 Id: _0pKx4N0NEeSqCbiyW6IFWQ
 Runtime-Version: 1.5.4.201412181238
-Save-Time: 6/5/15 6:55 PM
+Save-Time: 6/17/15 2:12 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
@@ -26,7 +26,7 @@ Entry-Name: .content
  *******************************************************************************/
 
 get-view "Project Explorer" | get-tree | select "school.incquery/src/school/simpleSchoolQueries.eiq" | double-click
-get-view "Query Explorer" | get-tree | select "Runtime/school/something" | get-menu "Show location" | click
+get-view "Query Explorer" | get-tree | select "Runtime/school/moreFriendsThan" | get-menu "Show location" | click
 get-editor "simpleSchoolQueries.eiq" | get-text-viewer | get-property "getSelectionText()" | equals moreFriendsThan 
     | verify-true
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
