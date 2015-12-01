@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="product" sequenceNumber="24">
+<locations>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.8.0.201405281451"/>
+<unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.8.0.201405281429"/>
+<unit id="org.eclipse.emf.compare.feature.group" version="3.0.1.201408191310"/>
+<unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="3.0.1.201408191310"/>
+<unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="1.8.0.201405281433"/>
+<unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.8.1.201408201453"/>
+<unit id="org.eclipse.gmf.tooling.feature.group" version="3.2.1.201409171321"/>
+<unit id="org.eclipse.uml2.sdk.feature.group" version="5.0.1.v20140910-1354"/>
+<unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="3.6.1.v201409111852"/>
+<unit id="org.eclipse.xpand.sdk.feature.group" version="2.0.0.v201406030414"/>
+<unit id="org.eclipse.xsd.sdk.feature.group" version="2.10.0.v20140901-1055"/>
+<unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
+<repository location="http://download.eclipse.org/releases/luna"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.incquery.runtime.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.incquery.validation.runtime.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.incquery.viewers.runtime.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.incquery.runtime.generic.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.incquery.sdk.feature.feature.group" version="0.0.0"/>
+<repository location="https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.google.guava" version="15.0.0.v201403281430"/>
+<unit id="com.google.inject" version="3.0.0.v201312141243"/>
+<unit id="javax.activation" version="1.1.0.v201211130549"/>
+<unit id="javax.xml" version="1.3.4.v201005080400"/>
+<unit id="org.apache.commons.cli" version="1.2.0.v201404270220"/>
+<unit id="org.apache.xerces" version="2.9.0.v201101211617"/>
+<unit id="org.apache.xml.resolver" version="1.2.0.v201005080400"/>
+<unit id="org.apache.xml.serializer" version="2.7.1.v201005080400"/>
+<unit id="org.hamcrest.library" version="1.3.0.v201305281000"/>
+<unit id="org.jdom" version="1.1.1.v201101151400"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.incquery.runtime.localsearch.feature.feature.group" version="0.0.0"/>
+<repository location="https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site-extra/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.rcp.feature.group" version="4.4.2.v20150204-1700"/>
+<unit id="org.eclipse.platform.sdk" version="4.4.2.M20150204-1700"/>
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.10.2.v20150204-1316"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.xtext.sdk.feature.group" version="2.9.0.v201511170433"/>
+<repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.ecore.xcore.sdk.feature.group" version="1.3.0.v20150602-0808"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="2.11.0.v20150601-0402"/>
+<repository location="http://download.eclipse.org/modeling/emf/emf/updates/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="school.feature.feature.group" version="1.2.0.201511271043"/>
+<repository location="http://viatra.inf.mit.bme.hu/update/incquery-extra/"/>
+</location>
+</locations>
+</target>

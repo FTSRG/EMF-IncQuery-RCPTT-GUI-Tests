@@ -18,16 +18,14 @@
   <!-- Change properies below to your values -->
   <properties>
   <autPath>../application/target/products/IncQuery-[platform].zip</autPath>
-  <!--<runnerPath>C:\Development\Szakdolgozat\rcptt.runner-incubation-1.5.6-N201504280833.zip</runnerPath>-->
-  <runnerPath>/usr/rcptt.runner-incubation-1.5.6-N201504182315.zip</runnerPath>
   </properties>
 
   <build>
     <plugins>
       <plugin>
-        <groupId>com.xored.ci4rcptt</groupId>
-        <artifactId>ci4rcptt-maven-plugin</artifactId>
-        <version>1.5.6-SNAPSHOT</version>
+        <groupId>org.eclipse.rcptt</groupId>
+        <artifactId>rcptt-maven-plugin</artifactId>
+        <version>${rcptt.version}</version>
         <extensions>true</extensions>
         <configuration>
           <aut>
@@ -39,7 +37,7 @@
 			</vmArgs>
           </aut>
           <runner>
-            <explicit>${runnerPath}</explicit>
+            <version>${rcptt.version}</version>
           </runner>
 		  <testOptions>
 			<execTimeout>7200</execTimeout>
@@ -68,9 +66,12 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>xored-releases</id>
-      <name>Xored Maven repository</name>
-      <url>http://maven.xored.com/nexus/content/repositories/ci4rcptt-snapshots/</url>
+      <id>rcptt-releases</id>
+      <name>RCPTT Maven repository</name>
+      <url>https://repo.eclipse.org/content/repositories/rcptt-releases</url>
+      <snapshots>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
     </pluginRepository>
   </pluginRepositories>
 

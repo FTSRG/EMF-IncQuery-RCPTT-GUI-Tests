@@ -6,8 +6,9 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho.version>0.20.0</tycho.version>
+    <tycho.version>0.24.0</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <rcptt.version>2.0.0</rcptt.version>
   </properties>
 
   <repositories>
@@ -16,11 +17,17 @@
       <url>http://download.eclipse.org/releases/luna</url>
       <layout>p2</layout>
     </repository>
-    <repository>
+    <!-- repository>
         <id>xtext</id>
-        <url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones/</url>
+        <url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url>
         <layout>p2</layout>
-    </repository>
+    </repository-->
+    <repository>
+    	<!-- XText milestones repository added for 2.9.0. Once it is released this repository should be disabled -->
+        <id>xtext-milestines</id>
+        <url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones</url>
+        <layout>p2</layout>
+     </repository>
     <repository>
         <id>incquery</id>
         <url>https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/</url>
