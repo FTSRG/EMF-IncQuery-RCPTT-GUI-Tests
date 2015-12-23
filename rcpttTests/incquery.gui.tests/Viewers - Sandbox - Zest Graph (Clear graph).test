@@ -6,8 +6,8 @@ Element-Type: testcase
 Element-Version: 3.0
 External-Reference: 
 Id: _AMS-4O0JEeS2zK4PLaWtaA
-Runtime-Version: 1.5.4.201412181238
-Save-Time: 6/5/15 6:55 PM
+Runtime-Version: 2.0.0.201506120617
+Save-Time: 12/23/15 1:44 PM
 Testcase-Type: ecl
 
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
@@ -32,26 +32,10 @@ with [get-view "IncQuery Viewers Sandbox"] {
     }
     get-button Apply | click
     get-tab-folder | get-tab-item "Zest Graph" | click
-    with [get-canvas] {
-        mouse-enter 109 7 -height 449 -width 991
-        mouse-move 0 91 -height 449 -width 991
-        mouse-exit "-3" 87 -height 449 -width 991
-    }
 }
 get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getNodes().size()" | equals 3 | verify-true
 with [get-view "IncQuery Viewers Sandbox"] {
-    with [get-canvas] {
-        mouse-enter 42 2 -height 449 -width 991
-        mouse-move 98 22 -height 449 -width 991
-        mouse-move 785 3 -height 449 -width 991
-        mouse-exit 793 "-1" -height 449 -width 991
-    }
     get-button "Clear Graph" | click
-    with [get-canvas] {
-        mouse-enter 458 0 -height 449 -width 991
-        mouse-move 207 4 -height 449 -width 991
-        mouse-exit 170 "-4" -height 449 -width 991
-    }
 }
 get-view "IncQuery Viewers Sandbox" | get-canvas | get-property "getNodes().size()" | equals 0 | verify-true
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
