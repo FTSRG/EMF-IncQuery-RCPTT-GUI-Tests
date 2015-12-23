@@ -348,6 +348,7 @@
       <feature id="org.eclipse.pde"/>
       <feature id="org.eclipse.incquery.runtime.localsearch.feature"/>
       <feature id="org.eclipse.incquery.sdk.feature"/>
+      <feature id="org.eclipse.incquery.testing.sdk.feature"/>
       <feature id="school.feature"/>
       <feature id="org.eclipse.incquery.databinding.runtime.feature"/>
       <feature id="org.eclipse.incquery.querybasedfeatures.runtime.feature"/>

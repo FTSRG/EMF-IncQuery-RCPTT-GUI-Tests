@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="product" sequenceNumber="24">
+<?pde version="3.8"?><target name="product" sequenceNumber="25">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.8.0.201405281451"/>
@@ -15,14 +15,6 @@
 <unit id="org.eclipse.xsd.sdk.feature.group" version="2.10.0.v20140901-1055"/>
 <unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
 <repository location="http://download.eclipse.org/releases/luna"/>
-</location>
-<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.incquery.runtime.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.incquery.validation.runtime.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.incquery.viewers.runtime.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.incquery.runtime.generic.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.incquery.sdk.feature.feature.group" version="0.0.0"/>
-<repository location="https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="com.google.guava" version="15.0.0.v201403281430"/>
@@ -59,6 +51,20 @@
 <location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="school.feature.feature.group" version="1.2.0.201511271043"/>
 <repository location="http://viatra.inf.mit.bme.hu/update/incquery-extra/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.incquery.uml.feature.feature.group" version="1.2.0.201512181737"/>
+<unit id="org.eclipse.incquery.uml.feature.source.feature.group" version="1.2.0.201512181737"/>
+<unit id="org.eclipse.incquery.runtime.gmf.feature.feature.group" version="1.2.0.201512181737"/>
+<unit id="org.eclipse.incquery.runtime.graphiti.feature.feature.group" version="1.0.0.201503271636"/>
+<unit id="org.eclipse.incquery.runtime.localsearch.feature.source.feature.group" version="1.2.0.201512181737"/>
+<unit id="com.google.inject" version="3.0.0.v201312141243"/>
+<unit id="com.google.inject.multibindings" version="3.0.0.v201402270930"/>
+<unit id="org.eclipse.incquery.sdk.feature.source.feature.group" version="1.2.0.201512181737"/>
+<unit id="org.eclipse.incquery.runtime.gmf.feature.source.feature.group" version="1.2.0.201512181737"/>
+<unit id="org.eclipse.incquery.runtime.graphiti.feature.source.feature.group" version="1.0.0.201503271636"/>
+<unit id="org.eclipse.incquery.testing.sdk.feature.feature.group" version="1.2.0.201512181737"/>
+<repository location="https://hudson.eclipse.org/incquery/job/incquery-master/lastSuccessfulBuild/artifact/update-site/"/>
 </location>
 </locations>
 </target>
